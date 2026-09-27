@@ -1,115 +1,115 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-26T11:34:58.908Z",
+  "generatedAt": "2026-09-27T12:13:38.979Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/proaction",
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "score": 0.59
+      "score": 0.61
     },
     {
       "id": "openai:https://openai.com/index/two-years-of-openai-academy",
       "title": "Two years of OpenAI Academy",
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "score": 0.2
+      "score": 0.22
     },
     {
       "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
       "title": "OpenAI extends cyber access to Ukraine for civilian defense",
       "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "score": 0.6
+      "score": 0.64
     },
     {
       "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "score": 0.28
+      "score": 0.29
     },
     {
       "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "score": 0.45
+      "score": 0.42
     },
     {
       "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "title": "How invideo improves color grading 3x with GPT‑6 Astra",
       "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "score": 0.26
+      "score": 0.27
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.57
+      "score": 0.59
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "score": 0.66
+      "score": 0.64
     },
     {
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.63
+      "score": 0.64
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.67
+      "score": 0.69
     },
     {
       "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
       "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
       "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "score": 0.3
+      "score": 0.29
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
       "summary": "",
-      "score": 0.49
+      "score": 0.47
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.9",
+      "title": "0.159.0-alpha.9",
+      "summary": "Release 0.159.0-alpha.9",
+      "score": 0.6
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.8",
+      "title": "0.159.0-alpha.8",
+      "summary": "Release 0.159.0-alpha.8",
+      "score": 0.57
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.7",
+      "title": "0.159.0-alpha.7",
+      "summary": "Release 0.159.0-alpha.7",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.6",
+      "title": "0.159.0-alpha.6",
+      "summary": "Release 0.159.0-alpha.6",
+      "score": 0.56
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.5",
+      "title": "0.159.0-alpha.5",
+      "summary": "Release 0.159.0-alpha.5",
+      "score": 0.6
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.4",
       "title": "0.159.0-alpha.4",
       "summary": "Release 0.159.0-alpha.4",
-      "score": 0.55
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.15.1",
-      "title": "0.158.0-alpha.15.1",
-      "summary": "Release 0.158.0-alpha.15.1",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.2.1",
-      "title": "0.158.0-alpha.2.1",
-      "summary": "Release 0.158.0-alpha.2.1",
-      "score": 0.53
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.3",
-      "title": "0.159.0-alpha.3",
-      "summary": "Release 0.159.0-alpha.3",
-      "score": 0.58
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.2",
-      "title": "0.159.0-alpha.2",
-      "summary": "Release 0.159.0-alpha.2",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0-alpha.1",
-      "title": "0.159.0-alpha.1",
-      "summary": "Release 0.159.0-alpha.1",
-      "score": 0.61
+      "score": 0.6
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
@@ -121,7 +121,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
       "title": "v2.1.282",
       "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and /status and claude doctor entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off Added the allowClaudeInChromeWithManagedMcp managed setting to let claude --chrome run alongside an exclusive managed-mcp.json ; the error shown when Chrome is blocked now names it Added store.readiness_grace_seconds to the Claude apps gateway so /readyz can stay ready through a sh",
-      "score": 0.95
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
@@ -133,7 +133,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "title": "v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 ( claude-opus-5-5 ), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the wheel scrolls the /skills list, and a skill's state options in /plugin can be clicked Added CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session Added hook output sizes and the number of oversized outputs saved to a file to the hook_execution_complete OpenTelemetry event Fixed writes through a",
-      "score": 0.95
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
@@ -157,25 +157,25 @@
       "id": "openai-status:https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE",
       "title": "Elevated Error Rates on GPT-6 Astra Pro",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.92
+      "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
       "title": "Mobile users unable to see Work Mode and the Model Picker",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Image Generation (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Sites (Operational) Agent (Operational) ChatGPT Atlas (Operational) Search (Operational) GPTs (Operational) File uploads (Operational) Voice mode (Operational) Conversations (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Search (Operational) ChatGPT Atlas (Operational) Sites (Operational) Image Generation (Operational) GPTs (Operational) ChatGPT Work (Operational) Codex in ChatGPT Desktop (Operational) File uploads (Operational) Voice mode (Operational) Conversations (Operational) Deep Research (Operational) Connectors/Apps (Operational) Compliance API (Operational) Agent (Operational) Login (Operational)",
       "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1",
       "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.88
+      "score": 0.89
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
       "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "score": 0.88
+      "score": 0.87
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
