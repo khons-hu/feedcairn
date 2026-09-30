@@ -84,3 +84,6 @@ dialog{border-color:var(--line-strong);border-radius:16px;background:var(--raise
 /* Links inside footer text are underlined, like the portfolio’s inline links. */
 footer a{text-decoration:underline;text-decoration-color:var(--line-strong);text-decoration-thickness:1px;text-underline-offset:4px}
 footer a:hover{text-decoration-color:var(--accent)}
+
+/* Monogram: the tile and glyph the portfolio shows for this project, in the header and the favicon. */
+.mark{font:500 21px/1 var(--sans);letter-spacing:-.03em}
