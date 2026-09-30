@@ -32,7 +32,8 @@ test('mutation and cron reject unauthenticated calls before storage access',asyn
  names.forEach(k=>process.env[k]='test-secret'); process.env.APP_ORIGIN='https://example.com';
  const response=()=>({setHeader(){},end(raw){this.body=JSON.parse(raw);}});
  try {
-  for(const headers of [{},{origin:'https://evil.com','x-enrollment-key':'test-secret'},{origin:'https://example.com','x-enrollment-key':'wrong'}]){const res=response();await handler({method:'POST',headers},res);assert.equal(res.statusCode,403);}
+  for(const headers of [{},{origin:'https://evil.com','x-enrollment-key':'test-secret'},{origin:'https://example.com','x-enrollment-key':'wrong'},{origin:'https://relay.khns.dev','x-enrollment-key':'wrong'},...['http://relay.khns.dev','https://relay.khns.dev.attacker.example','https://attacker-relay.khns.dev'].map(origin=>({origin,'x-enrollment-key':'test-secret'}))]){const res=response();await handler({method:'POST',headers},res);assert.equal(res.statusCode,403);}
+  for(const origin of ['https://example.com','https://relay.khns.dev']){const res=response();await handler({method:'POST',headers:{origin,'x-enrollment-key':'test-secret'},body:{}},res);assert.equal(res.statusCode,400);assert.equal(res.body.error,'Invalid notification request. Check subscription and preferences.');}
   const res=response();await digest({method:'GET',headers:{authorization:'Bearer wrong'}},res);assert.equal(res.statusCode,403);
  } finally {for(const k of names) if(saved[k]===undefined) delete process.env[k];else process.env[k]=saved[k];}
 });

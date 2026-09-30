@@ -1,6 +1,6 @@
 # Khonrelay
 
-[Open app ↗](https://quiet-signal-khonsu.vercel.app/)
+[Open app ↗](https://relay.khns.dev/)
 
 A small inbox for AI updates. OpenAI and DeepMind news, Codex and Claude Code releases, and OpenAI service status. Read the original, save what matters, close the tab.
 
@@ -31,7 +31,7 @@ Open http://127.0.0.1:4175/. `npm run build` creates the static UI in `dist/`. V
 
 ## Back up or move to another browser
 
-In Preferences, export a JSON backup before clearing site data or switching browsers. On the other browser, open Preferences and import that file (up to 3 MB).
+In Preferences, export a JSON backup before clearing site data, switching browsers or moving to relay.khns.dev. On the other browser, open Preferences and import that file (up to 3 MB).
 
 Import merges saved links, manually added links, read state and reminders with your existing data. It keeps the current theme, source selection and notification preferences. Cached feed items are fetched again rather than restored from the file. The app keeps at most 500 saved links, 500 manual links and 20 reminders.
 

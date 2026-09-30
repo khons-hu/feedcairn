@@ -3,7 +3,8 @@ export default async function handler(req,res) {
   if (req.method === 'GET') return reply(res,200,{configured:configured(),publicKey:configured()?process.env.VAPID_PUBLIC_KEY:null});
   if (req.method !== 'POST') return reply(res,405,{error:'Use GET or POST.'});
   if (!configured()) return reply(res,503,{error:'Hosted notifications are not configured.'});
-  if (!secureEqual(req.headers.origin,process.env.APP_ORIGIN) || !secureEqual(req.headers['x-enrollment-key'],process.env.PUSH_ENROLLMENT_KEY)) return reply(res,403,{error:'Not authorized.'});
+  const trustedOrigin = [process.env.APP_ORIGIN,'https://relay.khns.dev'].some(origin => secureEqual(req.headers.origin,origin));
+  if (!trustedOrigin || !secureEqual(req.headers['x-enrollment-key'],process.env.PUSH_ENROLLMENT_KEY)) return reply(res,403,{error:'Not authorized.'});
   let body, subscription, preferences;
   try {
     body = await readBody(req);

@@ -1,6 +1,6 @@
 # UI direction
 
-The reference is [khonsu’s portfolio](https://khons-hu.vercel.app/). These apps should look like work by the same person, with layouts shaped by their actual tasks.
+The reference is [khonsu’s portfolio](https://khns.dev/). These apps should look like work by the same person, with layouts shaped by their actual tasks.
 
 - Avenir Next / Avenir / Segoe UI for interface text, Georgia for a few large headings, SFMono / Consolas for data and utility labels. Use system fonts, no remote font requests.
 - Shared neutral palette: light background #f0f4f7, ink #192c3c, muted #4e6578, border #bccbd5. Dark background #090f16, panel #101a25, ink #e0e7ee, muted #98a7b7, border #253340.
