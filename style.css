@@ -25,3 +25,62 @@ fieldset>button{margin:0 6px 6px 0}
 
 /* Motion preference: System follows the OS. On and Off are explicit visitor choices. */
 .motion-control{white-space:nowrap;font-size:11px!important}.motion-off *,.motion-off *::before,.motion-off *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){html:not(.motion-force-on){scroll-behavior:auto}html:not(.motion-force-on) *,html:not(.motion-force-on) *::before,html:not(.motion-force-on) *::after{animation:none!important;transition:none!important}}
+
+/* ---------- Moonlit family: the current khns.dev look ----------
+   Warm paper and midnight palettes from the portfolio, sans headings under one Georgia title, sans labels,
+   pill buttons, 8px fields, 16px lit panels and a glass header. Feedcairn keeps the moonlight blue and ochre. */
+:root{--bg:#e9e6df;--paper:#f2efe9;--soft:#e4e0d7;--ink:#172430;--muted:#4c5966;--line:#d4cfc4;--line-strong:#b3ac9e;--field:#fbfaf7;--raised:#f3f0ea;--accent:#2b5a78;--on-accent:#f7f5f0;--ochre:#7a5d2c;--rim:rgba(255,255,255,.95);--glass:rgba(233,230,223,.8);--lift:0 26px 70px rgba(45,38,24,.2)}
+.dark{--bg:#090f16;--paper:#0e1721;--soft:#142131;--ink:#e3e9ef;--muted:#98a7b7;--line:#1f2d3a;--line-strong:#33485b;--field:#070c12;--raised:#0f1923;--accent:#afcee3;--on-accent:#08111a;--ochre:#d7b882;--rim:rgba(207,227,240,.1);--glass:rgba(9,15,22,.74);--lift:0 30px 90px rgba(0,0,0,.55)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline-offset:3px}
+::selection{background:#52738b;color:#fff}
+
+/* Header: glass across the full width, content aligned with the page column. */
+header{position:sticky;top:0;z-index:20;width:auto;height:76px;padding-inline:max(40px,calc((100% - 1190px) / 2));background:var(--glass);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4)}
+html{scroll-padding-top:96px}
+.brand{font-size:21px;letter-spacing:-.02em}
+.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:linear-gradient(150deg,#1b3348,#0b141d);box-shadow:inset 0 0 0 1px rgba(175,206,227,.16);color:#afcee3;font-size:22px;line-height:1}
+.edition,.manual,.category{font:500 10px/1.6 var(--sans);letter-spacing:.08em;text-transform:uppercase}
+.edition{margin-left:4px}
+
+/* Labels: small uppercase sans like the portfolio; the opening title keeps Georgia with its moon label. */
+.eyebrow,.receiver-label{font:500 11px/1.8 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.intro .eyebrow::before{content:"";display:inline-block;width:9px;height:9px;margin-inline-end:11px;border-radius:50%;vertical-align:-.5px;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--accent) 55%,transparent),inset -4px 0 0 0 var(--accent)}
+.item-meta{font:500 11px/1.6 var(--sans);letter-spacing:.03em}
+.category{padding:3px 10px;border-radius:999px}
+.manual{padding:2px 8px;border-color:var(--line-strong);border-radius:999px}
+.feed-heading h2,.dialog-head h2,.empty strong{font-family:var(--sans);font-weight:400;letter-spacing:-.03em}
+.receiver strong{letter-spacing:-.02em}
+
+/* Controls: pills, the accent for the main action and the current view, 8px fields. */
+button{border-color:var(--line-strong);border-radius:999px;padding:9px 15px}
+.primary,.primary:hover,button.primary:hover{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.primary:hover,button.primary:hover{background:color-mix(in srgb,var(--accent) 84%,var(--ink));border-color:color-mix(in srgb,var(--accent) 84%,var(--ink))}
+aside nav button[aria-current=true]{background:var(--accent);color:var(--on-accent)}
+.item-actions button{padding:4px 12px}
+input,textarea,select,.search{border-color:var(--line-strong);border-radius:8px;background-color:var(--field)}
+input[type=checkbox]{border-radius:0}
+.search input{background:transparent}
+select,.language-control select{-webkit-appearance:none;appearance:none;padding-right:30px;background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);background-position:calc(100% - 16px) 52%,calc(100% - 11px) 52%;background-size:5px 5px;background-repeat:no-repeat;cursor:pointer}
+select option{color:#111;background:#fff}
+.language-control>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.language-control select{height:38px;padding-block:0;padding-left:12px;background-color:transparent;font:500 12px var(--sans)}
+.tools #theme,.tools button{border-color:var(--line-strong)}
+.motion-control{color:var(--muted)}
+.motion-control:hover{color:var(--ink)}
+
+/* Panels and dialogs: 16px corners lit along the top edge. */
+.receiver,.item{border-radius:16px;box-shadow:inset 0 1px 0 var(--rim)}
+.empty{border-color:var(--line-strong);border-radius:16px}
+dialog{border-color:var(--line-strong);border-radius:16px;background:var(--raised);box-shadow:var(--lift),inset 0 1px 0 var(--rim)}
+.dialog-head button{border-radius:50%}
+
+@media(max-width:850px){header{padding-inline:18px}}
+/* Phones: the header wraps its controls, so it scrolls with the page instead of holding a tall strip. */
+@media(max-width:760px){header{position:static}html{scroll-padding-top:0}}
+@media(max-width:600px){header{height:auto;padding-block:16px}}
+/* The skip link lands above the glass header, and the feed link meets the 24px target size. */
+.skip{z-index:30}
+.rss-link{padding-block:3px}
+/* Links inside footer text are underlined, like the portfolio’s inline links. */
+footer a{text-decoration:underline;text-decoration-color:var(--line-strong);text-decoration-thickness:1px;text-underline-offset:4px}
+footer a:hover{text-decoration-color:var(--accent)}
