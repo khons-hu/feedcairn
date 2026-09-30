@@ -1,13 +1,25 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-29T13:07:33.275Z",
+  "generatedAt": "2026-09-30T12:47:43.788Z",
   "items": [
     {
-      "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
-      "title": "How we will do better for Australia",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "score": 0.29
+      "id": "openai:https://openai.com/index/introducing-gpt-6-1-sol",
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "score": 0.74
+    },
+    {
+      "id": "openai:https://openai.com/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "score": 0.88
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-dots",
+      "title": "Introducing dots",
+      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "score": 0.48
     },
     {
       "id": "openai:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
@@ -16,28 +28,16 @@
       "score": 0.72
     },
     {
+      "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
+      "title": "How we will do better for Australia",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "score": 0.29
+    },
+    {
       "id": "openai:https://openai.com/index/lenfest-ai-collaborative-expansion",
       "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
       "score": 0.56
-    },
-    {
-      "id": "openai:https://openai.com/form/codex-originals",
-      "title": "Are you a Codex Original?",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "score": 0.55
-    },
-    {
-      "id": "openai:https://openai.com/index/basis-tax-workbook-with-astra",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "score": 0.65
-    },
-    {
-      "id": "openai:https://openai.com/index/proaction",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "score": 0.58
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -76,8 +76,32 @@
       "score": 0.47
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.4",
+      "title": "0.161.0-alpha.4",
+      "summary": "Release 0.161.0-alpha.4",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.3",
+      "title": "0.161.0-alpha.3",
+      "summary": "Release 0.161.0-alpha.3",
+      "score": 0.6
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6.1",
+      "title": "0.160.0-alpha.6.1",
+      "summary": "Release 0.160.0-alpha.6.1",
+      "score": 0.56
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.2",
+      "title": "0.161.0-alpha.2",
+      "summary": "Release 0.161.0-alpha.2",
+      "score": 0.57
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1",
-      "title": "rust-v0.161.0-alpha.1",
+      "title": "0.161.0-alpha.1",
       "summary": "Release 0.161.0-alpha.1",
       "score": 0.58
     },
@@ -88,28 +112,10 @@
       "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.5",
-      "title": "rust-v0.160.0-alpha.5",
-      "summary": "Release 0.160.0-alpha.5",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.4",
-      "title": "rust-v0.160.0-alpha.4",
-      "summary": "Release 0.160.0-alpha.4",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.159.0",
-      "title": "0.159.0",
-      "summary": "New Features Opt-in instant_interrupt lets new input steer Codex during model responses or long-running code-mode calls. ( #48135 , #48141 ) New sessions get a compact welcome screen and consistent headers, with occasional tips during and after turns. ( #48513 , #48562 , #48352 ) The warnings viewer dismisses reviewed warnings when closed; press k to keep one for later. ( #48205 , #48206 ) You can scroll the transcript while deciding whether to implement a plan. ( #48805 ) Native Mermaid rendering supports more flowchart edges, labels, and node groups. ( #48814 , #48895 ) App-server clients ca",
-      "score": 0.94
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.3",
-      "title": "0.160.0-alpha.3",
-      "summary": "Release 0.160.0-alpha.3",
-      "score": 0.57
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "title": "v2.1.285",
+      "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added claude plugin configure to show a plugin's options and which are unset, or save new values read from stdin with --values-stdin Added . = to claude plugin install --config , so a bundled .mcpb MCP server's own settings can be set at install time and it starts without visiting /plugin → Configure Added allowedProviders managed setting to limit which API providers a mac",
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
@@ -142,15 +148,33 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-      "title": "v2.1.278",
-      "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode server row to /status showing whether this session's auto mode classifier runs on the server",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
+      "title": "Elevated error rates for ChatGPT Pro and Plus users",
+      "summary": "Status: Monitoring All impacted services are recovered, we are continuing to monitor for any reoccurrence. Affected components Conversations (Operational)",
+      "score": 0.88
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "summary": "Status: Monitoring All impacted services are recovered, we are continuing to monitor for any reoccurrence. Affected components Space (Operational)",
+      "score": 0.88
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M3Q4HMNP8SZ27DTZKW6F5BJ4",
+      "title": "Support available via email",
+      "summary": "Status: Resolved The issue affecting support chat has been resolved. You can now contact our support team through the Help Center as usual. Thank you for your patience while we worked to restore service.",
+      "score": 0.83
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Images (Operational) Batch (Operational) Files (Operational) Responses (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Login (Operational) Conversations (Operational) Compliance API",
+      "score": 0.96
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
       "title": "Issues with Codex",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
       "score": 0.95
     },
     {
@@ -158,30 +182,6 @@
       "title": "Elevated Error Rates on GPT-6 Astra Pro",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
       "score": 0.91
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
-      "title": "Mobile users unable to see Work Mode and the Model Picker",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Image Generation (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Compliance API (Operational) Agent (Operational) Deep Research (Operational) ChatGPT Atlas (Operational) Conversations (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) Voice mode (Operational) Search (Operational) Sites (Operational)",
-      "score": 0.92
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1",
-      "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.89
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
-      "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "score": 0.87
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
-      "title": "Increased error rate for Plus and Pro users.",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.88
     }
   ]
 }
