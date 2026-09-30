@@ -1,6 +1,6 @@
 # TypeSafe preview pilot
 
-Local experiment for Khonrelay. Nothing here sends notifications or changes the production feed. The app build does not include this directory.
+Local experiment for Feedcairn. Nothing here sends notifications or changes the production feed. The app build does not include this directory.
 
 ## First run
 

@@ -1,4 +1,4 @@
-# Khonrelay
+# Feedcairn
 
 [Open app ↗](https://relay.khns.dev/)
 
@@ -65,7 +65,7 @@ Original project code is available under the [MIT License](LICENSE), copyright �
 
 ## Android preview
 
-[Download the signed APK](https://github.com/khons-hu/khonrelay/releases/tag/android-v1.0.0-preview.1) · [Build instructions](android/README.md) · [Verification](android/VERIFICATION.md)
+[Download the signed APK](https://github.com/khons-hu/feedcairn/releases/tag/android-v1.0.0-preview.1) · [Build instructions](android/README.md) · [Verification](android/VERIFICATION.md)
 
 Android 8.0+ with a current TWA-capable browser (Chrome recommended). This small package opens the live web app. First load and server data require internet. Build, lint and signature checks pass, but installation and flows on an Android device have not yet been verified. No Google Play release or additional background notification service.
 
@@ -87,4 +87,4 @@ The API key stays in the local environment or GitHub Actions secrets. Visitors d
 
 Jev scores relevance for an alternative reading order. Code handles exact rules, and the original links stay visible. A model score is not verification of a release or a reason to send a notification. The default importance and push rules remain deterministic.
 
-I’m also trying small browser-action experiments separately. Those are not a browser agent shipped inside Khonrelay.
+I’m also trying small browser-action experiments separately. Those are not a browser agent shipped inside Feedcairn.

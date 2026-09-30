@@ -910,13 +910,13 @@ export const catalog:Record<string,string[]>={
     "Fuente no disponible",
     "Zdroj nedostupný"
   ],
-  "Choose a Khonrelay backup.": [
-    "Vyber zálohu Khonrelay.",
-    "Válassz Khonrelay-mentést.",
-    "Wybierz kopię Khonrelay.",
-    "Wähle eine Khonrelay-Sicherung.",
-    "Elige una copia de Khonrelay.",
-    "Vyber zálohu Khonrelay."
+  "Choose a Feedcairn backup.": [
+    "Vyber zálohu Feedcairn.",
+    "Válassz Feedcairn-mentést.",
+    "Wybierz kopię Feedcairn.",
+    "Wähle eine Feedcairn-Sicherung.",
+    "Elige una copia de Feedcairn.",
+    "Vyber zálohu Feedcairn."
   ],
   "Could not restore local data. You can import a backup in Preferences.": [
     "Lokálne údaje sa nepodarilo obnoviť. Zálohu môžeš importovať v nastaveniach.",
@@ -1238,21 +1238,21 @@ export const catalog:Record<string,string[]>={
     "Vistas del canal",
     "Zobrazení kanálu"
   ],
-  "Khonrelay home": [
-    "Khonrelay úvod",
-    "Khonrelay kezdőlap",
-    "Khonrelay strona główna",
-    "Khonrelay Startseite",
-    "Inicio de Khonrelay",
-    "Khonrelay úvod"
+  "Feedcairn home": [
+    "Feedcairn úvod",
+    "Feedcairn kezdőlap",
+    "Feedcairn strona główna",
+    "Feedcairn Startseite",
+    "Inicio de Feedcairn",
+    "Feedcairn úvod"
   ],
-  "Khonrelay · AI updates": [
-    "Khonrelay · AI novinky",
-    "Khonrelay · AI frissítések",
-    "Khonrelay · aktualizacje AI",
-    "Khonrelay · KI-Neuigkeiten",
-    "Khonrelay · novedades de IA",
-    "Khonrelay · AI novinky"
+  "Feedcairn · AI updates": [
+    "Feedcairn · AI novinky",
+    "Feedcairn · AI frissítések",
+    "Feedcairn · aktualizacje AI",
+    "Feedcairn · KI-Neuigkeiten",
+    "Feedcairn · novedades de IA",
+    "Feedcairn · AI novinky"
   ],
   "Title mentions a reset, quota or usage-limit change. Check the source for eligibility.": [
     "Názov spomína obnovenie, kvótu alebo zmenu limitu. Podmienky over v zdroji.",

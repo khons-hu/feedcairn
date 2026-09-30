@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    if: github.repository == 'khons-hu/khonrelay' && github.ref == 'refs/heads/main'
+    if: github.repository == 'khons-hu/feedcairn' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

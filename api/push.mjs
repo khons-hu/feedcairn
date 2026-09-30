@@ -23,7 +23,7 @@ export default async function handler(req,res) {
     if (body.action === 'test') {
       const allowed = await redis('SET',`quiet-signal:test:${id}`,'1','NX','EX',60);
       if (!allowed) return reply(res,429,{error:'Please wait one minute before testing again.'});
-      await sendPush(subscription,{title:'Khonrelay is connected',body:'This device can receive your daily digest.',url:process.env.APP_ORIGIN,tag:'quiet-signal-test'});
+      await sendPush(subscription,{title:'Feedcairn is connected',body:'This device can receive your daily digest.',url:process.env.APP_ORIGIN,tag:'quiet-signal-test'});
     }
     return reply(res,200,{ok:true});
   } catch { return reply(res,502,{error:'Notification service is temporarily unavailable.'}); }
