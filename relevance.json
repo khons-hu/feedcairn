@@ -1,13 +1,25 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-30T12:47:43.788Z",
+  "generatedAt": "2026-10-01T13:33:08.197Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "score": 0.81
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "title": "Helping small businesses put AI to work",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "score": 0.2
+    },
     {
       "id": "openai:https://openai.com/index/introducing-gpt-6-1-sol",
       "title": "Introducing GPT-6.1 Sol",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "score": 0.74
+      "score": 0.73
     },
     {
       "id": "openai:https://openai.com/index/devday-2026-recap",
@@ -19,103 +31,97 @@
       "id": "openai:https://openai.com/index/introducing-dots",
       "title": "Introducing dots",
       "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "score": 0.48
-    },
-    {
-      "id": "openai:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "title": "Towards safety cases for frontier AI training",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "score": 0.72
+      "score": 0.47
     },
     {
       "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
       "title": "How we will do better for Australia",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "score": 0.29
+      "score": 0.28
     },
     {
-      "id": "openai:https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "score": 0.56
+      "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "summary": "",
+      "score": 0.6
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-synthid-bio/",
+      "title": "Introducing SynthID Bio",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.59
+      "score": 0.6
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "score": 0.66
+      "score": 0.67
     },
     {
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.65
+      "score": 0.61
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.7
+      "score": 0.69
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "score": 0.3
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.12",
+      "title": "rust-v0.161.0-alpha.12",
+      "summary": "Release 0.161.0-alpha.12",
+      "score": 0.59
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "summary": "",
-      "score": 0.47
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.11",
+      "title": "0.161.0-alpha.11",
+      "summary": "Release 0.161.0-alpha.11",
+      "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.4",
-      "title": "0.161.0-alpha.4",
-      "summary": "Release 0.161.0-alpha.4",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.10",
+      "title": "0.161.0-alpha.10",
+      "summary": "Release 0.161.0-alpha.10",
+      "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.3",
-      "title": "0.161.0-alpha.3",
-      "summary": "Release 0.161.0-alpha.3",
-      "score": 0.6
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6.1",
-      "title": "0.160.0-alpha.6.1",
-      "summary": "Release 0.160.0-alpha.6.1",
-      "score": 0.56
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.2",
-      "title": "0.161.0-alpha.2",
-      "summary": "Release 0.161.0-alpha.2",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.9",
+      "title": "0.161.0-alpha.9",
+      "summary": "Release 0.161.0-alpha.9",
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.1",
-      "title": "0.161.0-alpha.1",
-      "summary": "Release 0.161.0-alpha.1",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.8",
+      "title": "0.161.0-alpha.8",
+      "summary": "Release 0.161.0-alpha.8",
       "score": 0.58
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.0-alpha.6",
-      "title": "0.160.0-alpha.6",
-      "summary": "Release 0.160.0-alpha.6",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.7",
+      "title": "0.161.0-alpha.7",
+      "summary": "Release 0.161.0-alpha.7",
+      "score": 0.57
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "title": "v2.1.286",
+      "summary": "What's changed Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire Fixed claude --resume and --continue sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed Fixed API 400 errors after a tool or hook returned an",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
       "title": "v2.1.285",
       "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added claude plugin configure to show a plugin's options and which are unset, or save new values read from stdin with --values-stdin Added . = to claude plugin install --config , so a bundled .mcpb MCP server's own settings can be set at install time and it starts without visiting /plugin → Configure Added allowedProviders managed setting to limit which API providers a mac",
-      "score": 0.95
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
@@ -142,46 +148,40 @@
       "score": 0.94
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
-      "title": "v2.1.280",
-      "summary": "What's changed Added Claude Opus 5.5 ( claude-opus-5-5 ), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the wheel scrolls the /skills list, and a skill's state options in /plugin can be clicked Added CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session Added hook output sizes and the number of oversized outputs saved to a file to the hook_execution_complete OpenTelemetry event Fixed writes through a",
-      "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
-      "title": "Elevated error rates for ChatGPT Pro and Plus users",
-      "summary": "Status: Monitoring All impacted services are recovered, we are continuing to monitor for any reoccurrence. Affected components Conversations (Operational)",
-      "score": 0.88
+      "id": "openai-status:https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
+      "title": "Elevated latency for some API requests",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
       "title": "Elevated errors in ChatGPT Space Pages",
-      "summary": "Status: Monitoring All impacted services are recovered, we are continuing to monitor for any reoccurrence. Affected components Space (Operational)",
+      "summary": "Status: Monitoring We have applied mitigations and are monitoring the recovery. Affected components Space (Degraded performance)",
+      "score": 0.9
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
+      "title": "Elevated error rates for ChatGPT Pro and Plus users",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
       "score": 0.88
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3Q4HMNP8SZ27DTZKW6F5BJ4",
       "title": "Support available via email",
       "summary": "Status: Resolved The issue affecting support chat has been resolved. You can now contact our support team through the Help Center as usual. Thank you for your patience while we worked to restore service.",
-      "score": 0.83
+      "score": 0.82
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Images (Operational) Batch (Operational) Files (Operational) Responses (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Login (Operational) Conversations (Operational) Compliance API",
-      "score": 0.96
+      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Moderations (Operational) Agent (Operational) Login (Operational) Voice mode (Operational) GPTs (Operational) Chat Completions (Operational) Compliance API (Operational) Image Generation (Operational) CLI (Operational) Agents (Operational) Conversations (Operational) Files (Operatio",
+      "score": 0.95
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
       "title": "Issues with Codex",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
       "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE",
-      "title": "Elevated Error Rates on GPT-6 Astra Pro",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.91
     }
   ]
 }
