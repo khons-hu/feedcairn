@@ -1,8 +1,26 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-01T13:33:08.197Z",
+  "generatedAt": "2026-10-02T12:51:36.806Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/the-eternal-complement",
+      "title": "The eternal complement",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "score": 0.55
+    },
+    {
+      "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "score": 0.34
+    },
+    {
+      "id": "openai:https://openai.com/index/the-den-family-social",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "score": 0.31
+    },
     {
       "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "title": "Disrupting a coordinated model-distillation campaign",
@@ -20,24 +38,6 @@
       "title": "Introducing GPT-6.1 Sol",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "score": 0.73
-    },
-    {
-      "id": "openai:https://openai.com/index/devday-2026-recap",
-      "title": "DevDay 2026 Recap",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "score": 0.88
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-dots",
-      "title": "Introducing dots",
-      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "score": 0.47
-    },
-    {
-      "id": "openai:https://openai.com/index/how-we-will-do-better-for-australia",
-      "title": "How we will do better for Australia",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "score": 0.28
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -76,40 +76,46 @@
       "score": 0.69
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.12",
-      "title": "rust-v0.161.0-alpha.12",
-      "summary": "Release 0.161.0-alpha.12",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
+      "title": "rust-v0.162.0-alpha.7",
+      "summary": "Release 0.162.0-alpha.7",
+      "score": 0.54
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.11",
-      "title": "0.161.0-alpha.11",
-      "summary": "Release 0.161.0-alpha.11",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.10",
-      "title": "0.161.0-alpha.10",
-      "summary": "Release 0.161.0-alpha.10",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.9",
-      "title": "0.161.0-alpha.9",
-      "summary": "Release 0.161.0-alpha.9",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.8",
-      "title": "0.161.0-alpha.8",
-      "summary": "Release 0.161.0-alpha.8",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.6",
+      "title": "0.162.0-alpha.6",
+      "summary": "Release 0.162.0-alpha.6",
       "score": 0.58
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.7",
-      "title": "0.161.0-alpha.7",
-      "summary": "Release 0.161.0-alpha.7",
-      "score": 0.57
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.5",
+      "title": "0.162.0-alpha.5",
+      "summary": "Release 0.162.0-alpha.5",
+      "score": 0.56
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.4",
+      "title": "0.162.0-alpha.4",
+      "summary": "Release 0.162.0-alpha.4",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.3",
+      "title": "0.162.0-alpha.3",
+      "summary": "Release 0.162.0-alpha.3",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.2",
+      "title": "0.162.0-alpha.2",
+      "summary": "Release 0.162.0-alpha.2",
+      "score": 0.56
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "title": "v2.1.287",
+      "summary": "What's changed Added Claude Mods: plugins may now modify deeper behavior Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with /plugin enable cc-plugin-you-should-know@builtin (for first-party sessions with telemetry on) Added an n: filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match Added prompt_text to the OpenTelemetry user_prompt event, a copy of prompt for backends that nest dotted keys; drop or mask it wherever you dr",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
@@ -142,22 +148,22 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
-      "title": "v2.1.281",
-      "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_role on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer Added guardrail: {id, version} on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none) Added telemetry.resource_attribute",
-      "score": 0.94
+      "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
+      "title": "Elevated errors in ChatGPT Space Pages",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational)",
+      "score": 0.88
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM",
+      "title": "Issues with login, signup, and ads",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Ads Manager (Operational) Ads API (Operational)",
+      "score": 0.58
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
       "title": "Elevated latency for some API requests",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
       "score": 0.94
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
-      "title": "Elevated errors in ChatGPT Space Pages",
-      "summary": "Status: Monitoring We have applied mitigations and are monitoring the recovery. Affected components Space (Degraded performance)",
-      "score": 0.9
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
@@ -174,14 +180,8 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Moderations (Operational) Agent (Operational) Login (Operational) Voice mode (Operational) GPTs (Operational) Chat Completions (Operational) Compliance API (Operational) Image Generation (Operational) CLI (Operational) Agents (Operational) Conversations (Operational) Files (Operatio",
-      "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "title": "Issues with Codex",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
-      "score": 0.95
+      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Login (Operational) Fine-tuning (Operational) Image Generation (Operational) Codex API (Operational) Moderations (Operational) ChatGPT Work (Operational) Files (Operational) File uploads (Operational) Audio (Operational) Responses (Operational) Search (Operational) GPTs (Operational",
+      "score": 0.96
     }
   ]
 }
