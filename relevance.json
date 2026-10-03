@@ -1,8 +1,20 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-02T12:51:36.806Z",
+  "generatedAt": "2026-10-03T11:49:58.286Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "score": 0.86
+    },
+    {
+      "id": "openai:https://openai.com/index/chatham-financial",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "score": 0.66
+    },
     {
       "id": "openai:https://openai.com/index/the-eternal-complement",
       "title": "The eternal complement",
@@ -26,18 +38,6 @@
       "title": "Disrupting a coordinated model-distillation campaign",
       "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
       "score": 0.81
-    },
-    {
-      "id": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "title": "Helping small businesses put AI to work",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "score": 0.2
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-gpt-6-1-sol",
-      "title": "Introducing GPT-6.1 Sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "score": 0.73
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -76,10 +76,28 @@
       "score": 0.69
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.10",
+      "title": "0.162.0-alpha.10",
+      "summary": "Release 0.162.0-alpha.10",
+      "score": 0.61
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.9",
+      "title": "0.162.0-alpha.9",
+      "summary": "Release 0.162.0-alpha.9",
+      "score": 0.57
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.8",
+      "title": "0.162.0-alpha.8",
+      "summary": "Release 0.162.0-alpha.8",
+      "score": 0.56
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
-      "title": "rust-v0.162.0-alpha.7",
+      "title": "0.162.0-alpha.7",
       "summary": "Release 0.162.0-alpha.7",
-      "score": 0.54
+      "score": 0.58
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.6",
@@ -94,22 +112,10 @@
       "score": 0.56
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.4",
-      "title": "0.162.0-alpha.4",
-      "summary": "Release 0.162.0-alpha.4",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.3",
-      "title": "0.162.0-alpha.3",
-      "summary": "Release 0.162.0-alpha.3",
-      "score": 0.58
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.2",
-      "title": "0.162.0-alpha.2",
-      "summary": "Release 0.162.0-alpha.2",
-      "score": 0.56
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "title": "v2.1.288",
+      "summary": "What's changed Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call Added --max-findi",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
@@ -142,10 +148,10 @@
       "score": 0.96
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
-      "title": "v2.1.282",
-      "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and /status and claude doctor entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off Added the allowClaudeInChromeWithManagedMcp managed setting to let claude --chrome run alongside an exclusive managed-mcp.json ; the error shown when Chrome is blocked now names it Added store.readiness_grace_seconds to the Claude apps gateway so /readyz can stay ready through a sh",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M3YNNVTSCXS8YM2V1YMHMVSE",
+      "title": "Issues with data analysis and file creation in ChatGPT",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
+      "score": 0.89
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
@@ -156,8 +162,8 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM",
       "title": "Issues with login, signup, and ads",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Ads Manager (Operational) Ads API (Operational)",
-      "score": 0.58
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads API (Operational) Login (Operational) Ads Manager (Operational)",
+      "score": 0.46
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
@@ -176,12 +182,6 @@
       "title": "Support available via email",
       "summary": "Status: Resolved The issue affecting support chat has been resolved. You can now contact our support team through the Help Center as usual. Thank you for your patience while we worked to restore service.",
       "score": 0.82
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
-      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "summary": "Status: Resolved The issue causing elevated errors across ChatGPT, Codex, and the API has been resolved, and all affected services have recovered. Thank you for your patience while we worked to restore service. The detailed Root Cause Analysis (RCA) will be published in the next 5 business days. Affected components Login (Operational) Fine-tuning (Operational) Image Generation (Operational) Codex API (Operational) Moderations (Operational) ChatGPT Work (Operational) Files (Operational) File uploads (Operational) Audio (Operational) Responses (Operational) Search (Operational) GPTs (Operational",
-      "score": 0.96
     }
   ]
 }
