@@ -1,7 +1,7 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-03T11:49:58.286Z",
+  "generatedAt": "2026-10-04T12:33:46.968Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
@@ -13,31 +13,31 @@
       "id": "openai:https://openai.com/index/chatham-financial",
       "title": "Chatham scales its capital markets expertise with OpenAI",
       "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "score": 0.66
+      "score": 0.65
     },
     {
       "id": "openai:https://openai.com/index/the-eternal-complement",
       "title": "The eternal complement",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "score": 0.55
+      "score": 0.54
     },
     {
       "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
       "title": "How Albertsons Companies is reimagining retail from the inside out",
       "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "score": 0.34
+      "score": 0.32
     },
     {
       "id": "openai:https://openai.com/index/the-den-family-social",
       "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
       "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "score": 0.31
+      "score": 0.39
     },
     {
       "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "title": "Disrupting a coordinated model-distillation campaign",
       "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "score": 0.81
+      "score": 0.8
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -49,37 +49,49 @@
       "id": "deepmind:https://deepmind.google/blog/introducing-synthid-bio/",
       "title": "Introducing SynthID Bio",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "score": 0.65
+      "score": 0.64
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.6
+      "score": 0.58
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "score": 0.67
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.61
+      "score": 0.63
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.69
+      "score": 0.7
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.12",
+      "title": "0.162.0-alpha.12",
+      "summary": "Release 0.162.0-alpha.12",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.11",
+      "title": "0.162.0-alpha.11",
+      "summary": "Release 0.162.0-alpha.11",
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.10",
       "title": "0.162.0-alpha.10",
       "summary": "Release 0.162.0-alpha.10",
-      "score": 0.61
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.9",
@@ -91,25 +103,19 @@
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.8",
       "title": "0.162.0-alpha.8",
       "summary": "Release 0.162.0-alpha.8",
-      "score": 0.56
+      "score": 0.6
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
       "title": "0.162.0-alpha.7",
       "summary": "Release 0.162.0-alpha.7",
-      "score": 0.58
+      "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.6",
-      "title": "0.162.0-alpha.6",
-      "summary": "Release 0.162.0-alpha.6",
-      "score": 0.58
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.5",
-      "title": "0.162.0-alpha.5",
-      "summary": "Release 0.162.0-alpha.5",
-      "score": 0.56
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "title": "v2.1.289",
+      "summary": "What's changed Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines Fixed the terminal freezing on short code blocks with many unclosed tags or deeply nested ${ substitutions Fixed Read deny rules not applying to files @-mentioned, changed, or selected in the IDE through a symlink [VSCode] Reverted a 2.1.288 change to claude auth status that may have made sign-outs more frequent Improved how quickly large files open in a plugin code pane by laying the highlighted view out once at its final width Fixed plugin ",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
@@ -142,16 +148,10 @@
       "score": 0.96
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "title": "v2.1.283",
-      "summary": "What's changed Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added availableModelsMatch managed setting: with \"exact\" , an availableModels entry allows only the model version it names, so new releases stay blocked until listed Added deniedModels managed setting to block specific models, even when availableModels allows them Added MCP tool, WebFetch and WebSearch outputs to the tool.output OpenTelemetry span event when OTEL_LOG_TOOL_CONTENT=1 Added /doctor prompt-audit (",
-      "score": 0.96
-    },
-    {
       "id": "openai-status:https://status.openai.com//incidents/01M3YNNVTSCXS8YM2V1YMHMVSE",
       "title": "Issues with data analysis and file creation in ChatGPT",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
-      "score": 0.89
+      "score": 0.88
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3R1T4FCR1337FBBYY9K2RPB",
@@ -162,8 +162,8 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM",
       "title": "Issues with login, signup, and ads",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads API (Operational) Login (Operational) Ads Manager (Operational)",
-      "score": 0.46
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads Manager (Operational) Ads API (Operational) Login (Operational)",
+      "score": 0.58
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR",
@@ -181,7 +181,7 @@
       "id": "openai-status:https://status.openai.com//incidents/01M3Q4HMNP8SZ27DTZKW6F5BJ4",
       "title": "Support available via email",
       "summary": "Status: Resolved The issue affecting support chat has been resolved. You can now contact our support team through the Help Center as usual. Thank you for your patience while we worked to restore service.",
-      "score": 0.82
+      "score": 0.79
     }
   ]
 }
