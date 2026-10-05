@@ -1,8 +1,14 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-04T12:33:46.968Z",
+  "generatedAt": "2026-10-05T14:59:02.925Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "score": 0.05
+    },
     {
       "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
       "title": "A model guide for the GPT-6 family",
@@ -19,43 +25,37 @@
       "id": "openai:https://openai.com/index/the-eternal-complement",
       "title": "The eternal complement",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "score": 0.54
+      "score": 0.56
     },
     {
       "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
       "title": "How Albertsons Companies is reimagining retail from the inside out",
       "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "score": 0.32
+      "score": 0.33
     },
     {
       "id": "openai:https://openai.com/index/the-den-family-social",
       "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
       "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "score": 0.39
-    },
-    {
-      "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "score": 0.8
+      "score": 0.36
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "summary": "",
-      "score": 0.6
+      "score": 0.61
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-synthid-bio/",
       "title": "Introducing SynthID Bio",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "score": 0.64
+      "score": 0.66
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.58
+      "score": 0.6
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
@@ -67,48 +67,48 @@
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.63
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.7
+      "score": 0.67
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
+      "title": "0.162.0-alpha.15",
+      "summary": "Release 0.162.0-alpha.15",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.14",
+      "title": "0.162.0-alpha.14",
+      "summary": "Release 0.162.0-alpha.14",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.13",
+      "title": "0.162.0-alpha.13",
+      "summary": "Release 0.162.0-alpha.13",
+      "score": 0.58
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.12",
       "title": "0.162.0-alpha.12",
       "summary": "Release 0.162.0-alpha.12",
-      "score": 0.58
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.11",
       "title": "0.162.0-alpha.11",
       "summary": "Release 0.162.0-alpha.11",
-      "score": 0.57
+      "score": 0.6
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.10",
       "title": "0.162.0-alpha.10",
       "summary": "Release 0.162.0-alpha.10",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.9",
-      "title": "0.162.0-alpha.9",
-      "summary": "Release 0.162.0-alpha.9",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.8",
-      "title": "0.162.0-alpha.8",
-      "summary": "Release 0.162.0-alpha.8",
-      "score": 0.6
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.7",
-      "title": "0.162.0-alpha.7",
-      "summary": "Release 0.162.0-alpha.7",
       "score": 0.59
     },
     {
@@ -121,7 +121,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
       "title": "v2.1.288",
       "summary": "What's changed Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call Added --max-findi",
-      "score": 0.94
+      "score": 0.93
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
@@ -133,19 +133,31 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
       "title": "v2.1.286",
       "summary": "What's changed Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire Fixed claude --resume and --continue sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed Fixed API 400 errors after a tool or hook returned an",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
       "title": "v2.1.285",
       "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session with --continue / --resume Added claude plugin configure to show a plugin's options and which are unset, or save new values read from stdin with --values-stdin Added . = to claude plugin install --config , so a bundled .mcpb MCP server's own settings can be set at install time and it starts without visiting /plugin → Configure Added allowedProviders managed setting to limit which API providers a mac",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
       "title": "v2.1.284",
       "summary": "What's changed Added Claude Sonnet 5.5 ( claude-sonnet-5-5 ), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones Added dollar amounts to the Claude apps gateway spend limit in /usage and the status line (for example \"$271.40 / $500.00 spent this month\") when the gateway runs this version or later; the status line's rate_limits.spend_limit also gains used_usd ",
       "score": 0.96
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M461GYDMCVJJK8330PVCH42C",
+      "title": "Issues saving and editing Pages",
+      "summary": "Status: Resolved The issue affecting saving and live editing in Pages has been resolved Affected components Space (Operational)",
+      "score": 0.49
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
+      "title": "Elevated Work Mode errors",
+      "summary": "Status: Monitoring We have mitigated the issue, and are monitoring recovery. Affected components Codex in ChatGPT Desktop (Degraded performance) ChatGPT Work (Degraded performance)",
+      "score": 0.93
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3YNNVTSCXS8YM2V1YMHMVSE",
@@ -162,7 +174,7 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM",
       "title": "Issues with login, signup, and ads",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads Manager (Operational) Ads API (Operational) Login (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Ads Manager (Operational) Ads API (Operational)",
       "score": 0.58
     },
     {
@@ -170,18 +182,6 @@
       "title": "Elevated latency for some API requests",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
       "score": 0.94
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3RDNY37CAPQGRKPBVMNRT4K",
-      "title": "Elevated error rates for ChatGPT Pro and Plus users",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.88
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M3Q4HMNP8SZ27DTZKW6F5BJ4",
-      "title": "Support available via email",
-      "summary": "Status: Resolved The issue affecting support chat has been resolved. You can now contact our support team through the Help Center as usual. Thank you for your patience while we worked to restore service.",
-      "score": 0.79
     }
   ]
 }
