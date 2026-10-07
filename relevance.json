@@ -1,13 +1,37 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-06T13:26:41.168Z",
+  "generatedAt": "2026-10-07T13:37:35.790Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/jump-trading",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "score": 0.55
+    },
+    {
+      "id": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "title": "Sharing AI progress in mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "score": 0.87
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
+      "title": "Advancing computer use with Ironclad",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "score": 0.68
+    },
+    {
+      "id": "openai:https://openai.com/index/atlassian-partnership",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "score": 0.55
+    },
     {
       "id": "openai:https://openai.com/index/eu-text-provenance",
       "title": "Our approach to EU text provenance rules",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "score": 0.59
+      "score": 0.57
     },
     {
       "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
@@ -16,46 +40,28 @@
       "score": 0.05
     },
     {
-      "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
-      "title": "A model guide for the GPT-6 family",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "score": 0.86
-    },
-    {
-      "id": "openai:https://openai.com/index/chatham-financial",
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "score": 0.65
-    },
-    {
-      "id": "openai:https://openai.com/index/the-eternal-complement",
-      "title": "The eternal complement",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "score": 0.56
-    },
-    {
-      "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "score": 0.33
+      "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "",
+      "score": 0.73
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "summary": "",
-      "score": 0.61
+      "score": 0.59
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-synthid-bio/",
       "title": "Introducing SynthID Bio",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "score": 0.66
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.6
+      "score": 0.59
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
@@ -67,61 +73,61 @@
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.65
+      "score": 0.64
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "summary": "",
-      "score": 0.67
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18",
+      "title": "0.162.0-alpha.18",
+      "summary": "Release 0.162.0-alpha.18",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17",
+      "title": "0.162.0-alpha.17",
+      "summary": "Release 0.162.0-alpha.17",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0",
+      "title": "rust-v0.161.0",
+      "summary": "Release 0.161.0",
+      "score": 0.58
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1",
       "title": "0.161.0-alpha.13.1",
       "summary": "Release 0.161.0-alpha.13.1",
-      "score": 0.58
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16",
       "title": "0.162.0-alpha.16",
       "summary": "Release 0.162.0-alpha.16",
-      "score": 0.59
+      "score": 0.58
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.15",
       "title": "0.162.0-alpha.15",
       "summary": "Release 0.162.0-alpha.15",
-      "score": 0.58
+      "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.14",
-      "title": "0.162.0-alpha.14",
-      "summary": "Release 0.162.0-alpha.14",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.160.1",
-      "title": "0.160.1",
-      "summary": "Bug Fixes Preserve SYSTEMROOT , TEMP , and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment. Changelog #51121 : Backport Windows remote MCP environment preservation to 0.160.",
-      "score": 0.9
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.13",
-      "title": "0.162.0-alpha.13",
-      "summary": "Release 0.162.0-alpha.13",
-      "score": 0.58
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "title": "v2.1.292",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request Added prompt.autocomplete , an event a mod hooks to add its own rows to the prompt box's autocomplete list Added prompt caching to $.model.complete fo",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
       "title": "v2.1.291",
       "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
-      "score": 0.89
+      "score": 0.9
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
       "title": "v2.1.290",
       "summary": "What's changed Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added agentId to the tool.check event of plugin hooks, so a hook can tell a subagent's permission check from the main session's Added ceiling to the question and verdict a mod's tool.check hook reads, naming the approval an organization requires for a tool Added ThemeKey and Color types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name Added to claude plugin validate : each hook a mod r",
-      "score": 0.92
+      "score": 0.93
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
@@ -133,7 +139,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
       "title": "v2.1.288",
       "summary": "What's changed Added $.ui.selection() for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row Added a built-in gh api to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call Added --max-findi",
-      "score": 0.93
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
@@ -142,46 +148,40 @@
       "score": 0.94
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
-      "title": "v2.1.286",
-      "summary": "What's changed Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire Fixed claude --resume and --continue sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed Fixed API 400 errors after a tool or hook returned an",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M4ADHMMBK7K92NJFJ0DXRYJM",
+      "title": "Unable to create new ChatGPT Work threads in latest version of desktop app",
+      "summary": "Status: Resolved We have released an updated app version with the fix for Linux, macOS and Windows. Affected users should update to the latest version. Affected components Codex in ChatGPT Desktop (Operational)",
+      "score": 0.85
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M49YQE6WZT02WYF0KBXVMQ5G",
+      "title": "Workspace Agents Degraded and Responses Impacted",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Agent (Operational)",
+      "score": 0.91
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M493CZ0CB14KPC0EER83MNVB",
+      "title": "Computer Use Is Experiencing Issues",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Agents (Operational)",
+      "score": 0.85
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M48Y8E81QAFF9XKVGE118E6X",
+      "title": "Errors processing large PDFs in the Responses API",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational)",
+      "score": 0.91
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M48PT6B8SDTW023NC9XZTBC0",
+      "title": "Elevated error rates in ChatGPT Go conversations",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+      "score": 0.9
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Files (Operational) Deep Research (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Voice mode (Operational) Embeddings (Operational) GPTs (Operational) Agent (Operational) Agents (Operational) ChatGPT Work (Operational) Images (Operational) Chat Completions (Operational) Codex Web (Operational) Login (Operational) Batch (Operational) Moderations (Operational) Codex API (Operational) VS Code extension (Operational) Fine-tuning (Operational) Realtime (",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Fine-tuning (Operational) Image Generation (Operational) Deep Research (Operational) Agent (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Agents (Operational) Images (Operational) Batch (Operational) Audio (Operational) Login (Operational) Voice mode (Operational) Files (Operational) GPTs (Operational) Login (Operational) Sites (Operational) File uploads (Operational) Realtime (Operational) Compliance API (Operational) Embeddings (Operational) Mod",
       "score": 0.96
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
-      "title": "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational) Conversations (Operational) Image Generation (Operational) ChatGPT Work (Operational) Space (Operational)",
-      "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
-      "title": "Elevated Work Mode errors",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
-      "score": 0.91
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M47AFBNRNXKJWN549T3PMYV8",
-      "title": "Elevated errors in API Platform login and administration APIs.",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
-      "score": 0.84
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M46G248GGHV9RSAJE82BZY1X",
-      "title": "Elevated errors in ChatGPT conversations",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) FedRAMP (Operational)",
-      "score": 0.88
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M46KED6KQ6PR195KZYYVNY8W",
-      "title": "Elevated error rates in Codex Cloud",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.93
     }
   ]
 }
