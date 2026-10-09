@@ -1,43 +1,43 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-08T13:44:03.749Z",
+  "generatedAt": "2026-10-09T13:29:10.477Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/sophos",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "score": 0.26
+    },
+    {
+      "id": "openai:https://openai.com/index/oracle",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "score": 0.7
+    },
+    {
+      "id": "openai:https://openai.com/index/pollo-ai",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "score": 0.28
+    },
+    {
+      "id": "openai:https://openai.com/index/legalon-halves-codex-costs",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "score": 0.87
+    },
+    {
+      "id": "openai:https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "score": 0.15
+    },
     {
       "id": "openai:https://openai.com/index/teens-learn-and-plan",
       "title": "Helping teens learn, plan, and shape the future of AI",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "score": 0.28
-    },
-    {
-      "id": "openai:https://openai.com/index/radisson",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "score": 0.26
-    },
-    {
-      "id": "openai:https://openai.com/index/gpt-6-for-everyone",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "score": 0.72
-    },
-    {
-      "id": "openai:https://openai.com/index/jump-trading",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "score": 0.57
-    },
-    {
-      "id": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "title": "Sharing AI progress in mathematics",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "score": 0.88
-    },
-    {
-      "id": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
-      "title": "Advancing computer use with Ironclad",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "score": 0.7
     },
     {
       "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -76,6 +76,30 @@
       "score": 0.64
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.4",
+      "title": "0.163.0-alpha.4",
+      "summary": "Release 0.163.0-alpha.4",
+      "score": 0.57
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2",
+      "title": "0.163.0-alpha.2",
+      "summary": "Release 0.163.0-alpha.2",
+      "score": 0.6
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.1",
+      "title": "0.163.0-alpha.1",
+      "summary": "Release 0.163.0-alpha.1",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0",
+      "title": "0.162.0",
+      "summary": "New Features Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled. ( #50148 ) Pin tasks in the agent Command Center with p and keep them in a shared Pinned group when supported by the server. ( #51500 ) Navigate and copy transcript blocks with /copy , use Ctrl+Insert to copy selections, and tune mouse-wheel scrolling with tui.mouse_scroll_speed . ( #50434 , #50215 , #50209 ) Make URLs clickable in approval headers, questions, MCP prompts, warnings, banners, and verification prompts, including when links wrap across lines. ( ",
+      "score": 0.92
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
       "title": "0.162.0-alpha.20",
       "summary": "Release 0.162.0-alpha.20",
@@ -88,28 +112,10 @@
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18.1",
-      "title": "0.162.0-alpha.18.1",
-      "summary": "Release 0.162.0-alpha.18.1",
-      "score": 0.55
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17.2",
-      "title": "0.162.0-alpha.17.2",
-      "summary": "Release 0.162.0-alpha.17.2",
-      "score": 0.56
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18",
-      "title": "0.162.0-alpha.18",
-      "summary": "Release 0.162.0-alpha.18",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17.1",
-      "title": "0.162.0-alpha.17.1",
-      "summary": "Release 0.162.0-alpha.17.1",
-      "score": 0.56
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "title": "v2.1.295",
+      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Added a warning to claude plugin install , enable , disable and marketplace add when the settings file they write to does not load Added a line on stderr, when it is a terminal, that ",
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
@@ -140,12 +146,6 @@
       "title": "v2.1.290",
       "summary": "What's changed Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added agentId to the tool.check event of plugin hooks, so a hook can tell a subagent's permission check from the main session's Added ceiling to the question and verdict a mod's tool.check hook reads, naming the approval an organization requires for a tool Added ThemeKey and Color types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name Added to claude plugin validate : each hook a mod r",
       "score": 0.93
-    },
-    {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
-      "title": "v2.1.289",
-      "summary": "What's changed Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines Fixed the terminal freezing on short code blocks with many unclosed tags or deeply nested ${ substitutions Fixed Read deny rules not applying to files @-mentioned, changed, or selected in the IDE through a symlink [VSCode] Reverted a 2.1.288 change to claude auth status that may have made sign-outs more frequent Improved how quickly large files open in a plugin code pane by laying the highlighted view out once at its final width Fixed plugin ",
-      "score": 0.95
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
