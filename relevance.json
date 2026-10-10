@@ -1,13 +1,19 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-09T13:29:10.477Z",
+  "generatedAt": "2026-10-10T12:44:19.019Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/sophos",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "score": 0.26
+    },
+    {
+      "id": "openai:https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "score": 0.82
     },
     {
       "id": "openai:https://openai.com/index/oracle",
@@ -32,12 +38,6 @@
       "title": "Disrupting AI-enabled “false front” operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "score": 0.15
-    },
-    {
-      "id": "openai:https://openai.com/index/teens-learn-and-plan",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "score": 0.28
     },
     {
       "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -76,6 +76,18 @@
       "score": 0.64
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.6",
+      "title": "rust-v0.163.0-alpha.6",
+      "summary": "Release 0.163.0-alpha.6",
+      "score": 0.6
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
+      "title": "0.163.0-alpha.5",
+      "summary": "Release 0.163.0-alpha.5",
+      "score": 0.6
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.4",
       "title": "0.163.0-alpha.4",
       "summary": "Release 0.163.0-alpha.4",
@@ -88,28 +100,22 @@
       "score": 0.6
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.1",
+      "title": "0.162.1",
+      "summary": "Bug Fixes Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. ( #51866 ) Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now apply only to explicit command-line feature overrides. ( #52648 ) Full Changelog: rust-v0.162.0...rust-v0.162.1",
+      "score": 0.84
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.1",
       "title": "0.163.0-alpha.1",
       "summary": "Release 0.163.0-alpha.1",
       "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0",
-      "title": "0.162.0",
-      "summary": "New Features Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled. ( #50148 ) Pin tasks in the agent Command Center with p and keep them in a shared Pinned group when supported by the server. ( #51500 ) Navigate and copy transcript blocks with /copy , use Ctrl+Insert to copy selections, and tune mouse-wheel scrolling with tui.mouse_scroll_speed . ( #50434 , #50215 , #50209 ) Make URLs clickable in approval headers, questions, MCP prompts, warnings, banners, and verification prompts, including when links wrap across lines. ( ",
-      "score": 0.92
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.20",
-      "title": "0.162.0-alpha.20",
-      "summary": "Release 0.162.0-alpha.20",
-      "score": 0.6
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.19",
-      "title": "rust-v0.162.0-alpha.19",
-      "summary": "Release 0.162.0-alpha.19",
-      "score": 0.57
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "title": "v2.1.296",
+      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workflow agent on one model while other subagents keep theirs Added CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS environment variable to set a longer maximum delay for the backoff when ret",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
@@ -142,10 +148,22 @@
       "score": 0.89
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
-      "title": "v2.1.290",
-      "summary": "What's changed Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added agentId to the tool.check event of plugin hooks, so a hook can tell a subagent's permission check from the main session's Added ceiling to the question and verdict a mod's tool.check hook reads, naming the approval an organization requires for a tool Added ThemeKey and Color types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name Added to claude plugin validate : each hook a mod r",
-      "score": 0.93
+      "id": "openai-status:https://status.openai.com//incidents/01M4H7FKXDA425TDNP2CRGEYA3",
+      "title": "Some ChatGPT content may be unavailable on Android",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+      "score": 0.91
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
+      "title": "Workspace admins may be unable to manage plugins",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational)",
+      "score": 0.81
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
+      "title": "Delayed Costs data in the Compliance API",
+      "summary": "Status: Monitoring We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11. ChatGPT usage and API Platform requests remain unaffected. We are monitoring recovery. Affected components Compliance API (Degraded performance)",
+      "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
@@ -164,24 +182,6 @@
       "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational)",
       "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4BK9J2M83R4SSC71D9FXW45",
-      "title": "Dot in Codex may fail to create new threads",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational)",
-      "score": 0.9
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4ADHMMBK7K92NJFJ0DXRYJM",
-      "title": "Unable to create new ChatGPT Work threads in latest version of desktop app",
-      "summary": "Status: Resolved We have released an updated app version with the fix for Linux, macOS and Windows. Affected users should update to the latest version. Affected components Codex in ChatGPT Desktop (Operational)",
-      "score": 0.86
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M49YQE6WZT02WYF0KBXVMQ5G",
-      "title": "Workspace Agents Degraded and Responses Impacted",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Agent (Operational)",
-      "score": 0.91
     }
   ]
 }
