@@ -4,6 +4,8 @@
   const root = document.documentElement;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let preference;
+  let labels = {};
+  const text = key => labels[key] || key;
   try { preference = localStorage.getItem(key); } catch {}
   if (!['system', 'on', 'off'].includes(preference)) preference = 'system';
   function apply() {
@@ -13,12 +15,13 @@
     root.dataset.motion = preference;
     const button = document.querySelector('#motion');
     if (!button) return;
-    button.textContent = preference === 'on' ? 'Motion: on' : preference === 'off' ? 'Motion: off' : `Motion: system${reduced.matches ? ' (reduced)' : ''}`;
+    button.textContent = text(preference === 'on' ? 'Motion: on' : preference === 'off' ? 'Motion: off' : `Motion: system${reduced.matches ? ' (reduced)' : ''}`);
     button.setAttribute('aria-pressed', String(!disabled));
-    button.title = 'Motion cycles through system, on, and off.';
+    button.title = text('Motion cycles through system, on, and off.');
   }
   apply();
   reduced.addEventListener('change', apply);
+  document.addEventListener('khonrelay:locale', event => { labels = event.detail; apply(); });
   document.addEventListener('DOMContentLoaded', () => {
     apply();
     document.querySelector('#motion')?.addEventListener('click', () => {

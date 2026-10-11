@@ -9,6 +9,7 @@ A small inbox for AI updates. OpenAI and DeepMind news, Codex and Claude Code re
 - Five official RSS/Atom sources, fetched through a bounded allowlist API.
 - Important, releases, reset news, service status and saved views. Importance rules explain themselves.
 - Search, read/unread, source muting, saved links, local backups and light/dark themes.
+- Keyboard focus stays with Save/Read actions as the feed updates. Motion supports System, On and Off.
 - Combined RSS at `/api/rss`, plus OPML source export.
 - Local manual reset reminders. These are not connected to an account.
 - Optional in-app browser notifications. Optional hosted daily Web Push backend, disabled until configured.
@@ -55,9 +56,9 @@ RSS content belongs to its publishers. Titles and bounded excerpts link to origi
 
 ## Verification
 
-TypeScript build, parser/URL-safety/cache tests, notification authorization and quiet-hour tests. Desktop dark and mobile light layouts reviewed. Save, read/unread, filtering and persistence tested in browser. Live upstream feeds and combined RSS parse successfully. Hosted closed-app delivery remains unverified until infrastructure is connected.
+TypeScript build, parser/URL-safety/cache tests, notification authorization and quiet-hour tests. Desktop dark and mobile light layouts reviewed. Save, read/unread, filtering and persistence tested in browser. Live upstream feeds and combined RSS parse successfully. Notification delivery must be checked separately from the UI and backend tests.
 
-Production status (2026-09-20): all five feeds and combined RSS respond successfully. Vercel GitHub autodeploy is verified. Free Redis and the daily digest are configured, and an authenticated digest request succeeds. Brave returned a push-service registration error on the test device, so device enrollment and closed-app delivery are not yet verified.
+Production verification: GitHub pushes deploy through Vercel. Redis and the daily digest are configured. On 21 September 2026, the connection and test notifications were visible in macOS Notification Center from Brave. Delivery with the browser fully closed and delivery on phones have not been verified.
 
 ## License
 

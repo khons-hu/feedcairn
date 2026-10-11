@@ -1,5 +1,13 @@
 export const languages:Record<string,string>={en:'English',sk:'Slovenčina',hu:'Magyar',pl:'Polski',de:'Deutsch',es:'Español',cs:'Čeština'};
 export const catalog:Record<string,string[]>={
+  "Appearance": ["Vzhľad", "Megjelenés", "Wygląd", "Darstellung", "Apariencia", "Vzhled"],
+  "Reading order": ["Poradie čítania", "Olvasási sorrend", "Kolejność czytania", "Lesereihenfolge", "Orden de lectura", "Pořadí čtení"],
+  "Motion: system": ["Pohyb: systém", "Mozgás: rendszer", "Ruch: system", "Bewegung: System", "Movimiento: sistema", "Pohyb: systém"],
+  "Motion: system (reduced)": ["Pohyb: systém (obmedzený)", "Mozgás: rendszer (csökkentett)", "Ruch: system (ograniczony)", "Bewegung: System (reduziert)", "Movimiento: sistema (reducido)", "Pohyb: systém (omezený)"],
+  "Motion: on": ["Pohyb: zapnutý", "Mozgás: be", "Ruch: włączony", "Bewegung: an", "Movimiento: activado", "Pohyb: zapnutý"],
+  "Motion: off": ["Pohyb: vypnutý", "Mozgás: ki", "Ruch: wyłączony", "Bewegung: aus", "Movimiento: desactivado", "Pohyb: vypnutý"],
+  "Motion cycles through system, on, and off.": ["Pohyb sa prepína medzi systémom, zapnutím a vypnutím.", "Váltás a rendszerbeállítás, a be és a ki között.", "Przełącza ruch między ustawieniem systemowym, włączonym i wyłączonym.", "Wechselt zwischen System, an und aus.", "Alterna entre sistema, activado y desactivado.", "Pohyb se přepíná mezi systémem, zapnutím a vypnutím."],
+
 "Enrollment key was rejected. Use the current key.":["Kľúč bol odmietnutý. Použi aktuálny kľúč.", "A kulcsot elutasították. Használd az aktuális kulcsot.", "Klucz został odrzucony. Użyj aktualnego klucza.", "Schlüssel abgelehnt. Verwende den aktuellen Schlüssel.", "Clave rechazada. Usa la clave actual.", "Klíč byl odmítnut. Použij aktuální klíč."],
 "This browser returned an invalid push subscription.":["Prehliadač vrátil neplatnú push registráciu.", "A böngésző érvénytelen push-regisztrációt adott vissza.", "Przeglądarka zwróciła nieprawidłową subskrypcję push.", "Der Browser hat ein ungültiges Push-Abonnement zurückgegeben.", "El navegador devolvió una suscripción push inválida.", "Prohlížeč vrátil neplatnou push registraci."],
 "Please wait one minute before testing again.":["Pred ďalším testom počkaj minútu.", "Várj egy percet az újabb teszt előtt.", "Poczekaj minutę przed kolejnym testem.", "Warte vor dem nächsten Test eine Minute.", "Espera un minuto antes de repetir la prueba.", "Před dalším testem počkej minutu."],
