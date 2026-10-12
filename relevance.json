@@ -1,13 +1,13 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-11T13:06:58.696Z",
+  "generatedAt": "2026-10-12T15:45:23.067Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/sophos",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "score": 0.28
+      "score": 0.27
     },
     {
       "id": "openai:https://openai.com/index/asana-browser-agent",
@@ -37,13 +37,13 @@
       "id": "openai:https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "title": "Disrupting AI-enabled “false front” operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "score": 0.14
+      "score": 0.13
     },
     {
       "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
       "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
       "summary": "",
-      "score": 0.71
+      "score": 0.72
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
@@ -55,31 +55,31 @@
       "id": "deepmind:https://deepmind.google/blog/introducing-synthid-bio/",
       "title": "Introducing SynthID Bio",
       "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "score": 0.64
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "summary": "",
-      "score": 0.58
+      "score": 0.59
     },
     {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "score": 0.64
+      "score": 0.66
     },
     {
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
       "title": "Gemini 3.8 text-to-speech says hello",
       "summary": "",
-      "score": 0.63
+      "score": 0.64
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.6",
       "title": "rust-v0.163.0-alpha.6",
       "summary": "Release 0.163.0-alpha.6",
-      "score": 0.61
+      "score": 0.6
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
@@ -97,7 +97,7 @@
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2",
       "title": "0.163.0-alpha.2",
       "summary": "Release 0.163.0-alpha.2",
-      "score": 0.6
+      "score": 0.59
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.1",
@@ -121,7 +121,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
       "title": "v2.1.295",
       "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Added a warning to claude plugin install , enable , disable and marketplace add when the settings file they write to does not load Added a line on stderr, when it is a terminal, that ",
-      "score": 0.95
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
@@ -133,7 +133,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
       "title": "v2.1.293",
       "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed Claude sometimes treating its own last actions before a context compaction as done after it, and retracting or redoing finished work Fixed a memory leak where an HTTP MCP connectio",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
@@ -145,13 +145,13 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
       "title": "v2.1.291",
       "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
-      "score": 0.89
+      "score": 0.88
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4H7FKXDA425TDNP2CRGEYA3",
       "title": "Some ChatGPT content may be unavailable on Android",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.91
+      "score": 0.92
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
@@ -169,19 +169,19 @@
       "id": "openai-status:https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
       "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)",
-      "score": 0.92
+      "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4CBXZ62A9SVH8D74KVYQC8M",
       "title": "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
-      "score": 0.92
+      "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4BP5JE7DKJSP3VG2S2DCWF2",
       "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational)",
-      "score": 0.94
+      "score": 0.95
     }
   ]
 }
