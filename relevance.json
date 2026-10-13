@@ -1,7 +1,7 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-12T15:45:23.067Z",
+  "generatedAt": "2026-10-13T14:24:07.627Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/sophos",
@@ -76,6 +76,18 @@
       "score": 0.64
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9",
+      "title": "rust-v0.163.0-alpha.9",
+      "summary": "Release 0.163.0-alpha.9",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.8",
+      "title": "0.163.0-alpha.8",
+      "summary": "Release 0.163.0-alpha.8",
+      "score": 0.59
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.6",
       "title": "rust-v0.163.0-alpha.6",
       "summary": "Release 0.163.0-alpha.6",
@@ -98,18 +110,6 @@
       "title": "0.163.0-alpha.2",
       "summary": "Release 0.163.0-alpha.2",
       "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.162.1",
-      "title": "0.162.1",
-      "summary": "Bug Fixes Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. ( #51866 ) Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now apply only to explicit command-line feature overrides. ( #52648 ) Full Changelog: rust-v0.162.0...rust-v0.162.1",
-      "score": 0.83
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.1",
-      "title": "0.163.0-alpha.1",
-      "summary": "Release 0.163.0-alpha.1",
-      "score": 0.6
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
@@ -148,6 +148,18 @@
       "score": 0.88
     },
     {
+      "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "summary": "Status: Monitoring We have applied the mitigation and are monitoring the recovery. Affected components Codex Web (Degraded performance) CLI (Degraded performance) VS Code extension (Degraded performance) Codex API (Degraded performance) ChatGPT Work (Degraded performance)",
+      "score": 0.95
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
+      "title": "Delayed Costs data in the Compliance API",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
+      "score": 0.73
+    },
+    {
       "id": "openai-status:https://status.openai.com//incidents/01M4H7FKXDA425TDNP2CRGEYA3",
       "title": "Some ChatGPT content may be unavailable on Android",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
@@ -160,12 +172,6 @@
       "score": 0.82
     },
     {
-      "id": "openai-status:https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
-      "title": "Delayed Costs data in the Compliance API",
-      "summary": "Status: Monitoring We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11. ChatGPT usage and API Platform requests remain unaffected. We are monitoring recovery. Affected components Compliance API (Degraded performance)",
-      "score": 0.91
-    },
-    {
       "id": "openai-status:https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
       "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)",
@@ -176,12 +182,6 @@
       "title": "Elevated errors with GPT-5.6 Instant in FedRAMP workspaces",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
       "score": 0.91
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4BP5JE7DKJSP3VG2S2DCWF2",
-      "title": "Degraded performance in Codex and Work mode: Dot turn failures, delayed responses, and reduced proactivity",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational)",
-      "score": 0.95
     }
   ]
 }
