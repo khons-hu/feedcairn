@@ -16,11 +16,12 @@ test('digest starts independent sources together and still preserves compare-and
   Object.assign(process.env,values);
   const original=global.fetch,commands=[],started=[];
   let release;const gate=new Promise(resolve=>{release=resolve;});
-  const record={preferences:{sources:['openai','deepmind'],timezone:'UTC',quietStart:0,quietEnd:0,priority:'all'},lastCheckedAt:'2020-01-01T00:00:00Z'};
+  const record={preferences:{sources:['openai'],timezone:'UTC',quietStart:0,quietEnd:0,priority:'all'},lastCheckedAt:'2020-01-01T00:00:00Z'};
+  const secondRecord={...record,preferences:{...record.preferences,sources:['deepmind','openai']}};
   global.fetch=async(url,options)=>{
     if(String(url).includes('test.upstash.io')){
       const command=JSON.parse(options.body);commands.push(command);
-      return new Response(JSON.stringify({result:command[0]==='HGETALL'?['fixture-device',JSON.stringify(record)]:1}));
+      return new Response(JSON.stringify({result:command[0]==='HGETALL'?['fixture-device',JSON.stringify(record),'second-device',JSON.stringify(secondRecord)]:1}));
     }
     started.push(String(url));await gate;
     return new Response('<rss><channel></channel></rss>',{headers:{'Content-Type':'application/rss+xml'}});
@@ -29,7 +30,7 @@ test('digest starts independent sources together and still preserves compare-and
   try{
     run=digest({method:'GET',headers:{authorization:'Bearer fixture'}},res);
     await new Promise(resolve=>setImmediate(resolve));
-    assert.equal(started.length,2,'both feeds must start before either resolves');
+    assert.equal(started.length,2,'all unique subscriber feeds must start before either resolves');
   }finally{
     release();await run;global.fetch=original;
     for(const [key,value] of Object.entries(saved))if(value===undefined)delete process.env[key];else process.env[key]=value;

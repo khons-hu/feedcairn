@@ -10,18 +10,22 @@ export default async function handler(req,res) {
     const raw = await redis('HGETALL',HASH);
     const entries = Array.isArray(raw) ? Array.from({length:raw.length/2},(_,i)=>[raw[i*2],raw[i*2+1]]) : Object.entries(raw || {});
     const feeds = new Map();
-    let sent = 0, failed = 0;
+    const active = [];
     for (const [id,value] of entries.slice(0,10)) {
       let record;
       try { record = JSON.parse(value); } catch { continue; }
       if (isQuiet(record.preferences)) continue;
+      active.push({id,value,record});
+      for (const source of record.preferences.sources) {
+        if (!feeds.has(source)) feeds.set(source,getFeed(source).catch(()=>null));
+      }
+    }
+    let sent = 0, failed = 0;
+    for (const {id,value,record} of active) {
       const checkedAt = new Date().toISOString();
       const items = [];
       const fetchedAt = [];
       let complete = true;
-      for (const source of record.preferences.sources) {
-        if (!feeds.has(source)) feeds.set(source,getFeed(source).catch(()=>null));
-      }
       for (const source of record.preferences.sources) {
         const feed = await feeds.get(source);
         if (!feed) { complete = false; continue; }
