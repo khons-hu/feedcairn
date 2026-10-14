@@ -132,3 +132,6 @@ footer a:hover{text-decoration-color:var(--accent)}
  .item-actions>a{flex:1 0 100%;margin:0}
 }
 @media(max-width:360px){header{flex-wrap:wrap}.tools{margin-left:auto}.item{padding:17px}}
+
+/* Reserve the first mobile toolbar and view row before the module loads. */
+@media(max-width:620px){#views{min-height:50px}.mobile-tools{min-height:44px}}

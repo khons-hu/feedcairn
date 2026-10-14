@@ -21,6 +21,8 @@ export default async function handler(req,res) {
       let complete = true;
       for (const source of record.preferences.sources) {
         if (!feeds.has(source)) feeds.set(source,getFeed(source).catch(()=>null));
+      }
+      for (const source of record.preferences.sources) {
         const feed = await feeds.get(source);
         if (!feed) { complete = false; continue; }
         fetchedAt.push(feed.checkedAt);

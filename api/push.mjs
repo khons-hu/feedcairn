@@ -1,6 +1,6 @@
 import { configured, secureEqual, validateSubscription, validatePreferences, validEndpoint, subscriptionId, redis, HASH, sendPush, readBody, reply } from '../lib/push.mjs';
 export default async function handler(req,res) {
-  if (req.method === 'GET') return reply(res,200,{configured:configured(),publicKey:configured()?process.env.VAPID_PUBLIC_KEY:null});
+  if (req.method === 'GET') return reply(res,200,{configured:configured(),publicKey:configured()?process.env.VAPID_PUBLIC_KEY:null},'public, max-age=0, s-maxage=300');
   if (req.method !== 'POST') return reply(res,405,{error:'Use GET or POST.'});
   if (!configured()) return reply(res,503,{error:'Hosted notifications are not configured.'});
   const trustedOrigin = [process.env.APP_ORIGIN,'https://relay.khns.dev'].some(origin => secureEqual(req.headers.origin,origin));
