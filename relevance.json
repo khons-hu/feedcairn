@@ -1,8 +1,32 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-14T12:07:49.571Z",
+  "generatedAt": "2026-10-15T11:44:10.840Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/amp-beyond-coding",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "score": 0.7
+    },
+    {
+      "id": "openai:https://openai.com/index/sentinelone",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "score": 0.3
+    },
+    {
+      "id": "openai:https://openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "score": 0.82
+    },
+    {
+      "id": "openai:https://openai.com/index/block-ai-powered-security",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "score": 0.34
+    },
     {
       "id": "openai:https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "title": "The EU’s next chapter in AI is agentic",
@@ -14,30 +38,6 @@
       "title": "Higgsfield takes AI video from 1 minute to over 10",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "score": 0.44
-    },
-    {
-      "id": "openai:https://openai.com/index/sophos",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "score": 0.27
-    },
-    {
-      "id": "openai:https://openai.com/index/asana-browser-agent",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "score": 0.81
-    },
-    {
-      "id": "openai:https://openai.com/index/oracle",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "score": 0.68
-    },
-    {
-      "id": "openai:https://openai.com/index/pollo-ai",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "score": 0.27
     },
     {
       "id": "deepmind:https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
@@ -76,6 +76,12 @@
       "score": 0.6
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
+      "title": "rust-v0.163.0-alpha.13",
+      "summary": "Release 0.163.0-alpha.13",
+      "score": 0.62
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
       "title": "rust-v0.163.0-alpha.12",
       "summary": "Release 0.163.0-alpha.12",
@@ -86,6 +92,12 @@
       "title": "0.163.0-alpha.11",
       "summary": "Release 0.163.0-alpha.11",
       "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+      "title": "0.163.0-alpha.10.1",
+      "summary": "Release 0.163.0-alpha.10.1",
+      "score": 0.55
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
@@ -100,16 +112,10 @@
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.8",
-      "title": "0.163.0-alpha.8",
-      "summary": "Release 0.163.0-alpha.8",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.6",
-      "title": "rust-v0.163.0-alpha.6",
-      "summary": "Release 0.163.0-alpha.6",
-      "score": 0.6
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "title": "v2.1.300",
+      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir prop on a mod's Text for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush right Added /advisor on Claude Platform on AWS; no adv",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
@@ -142,10 +148,10 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "title": "v2.1.292",
-      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request Added prompt.autocomplete , an event a mod hooks to add its own rows to the prompt box's autocomplete list Added prompt caching to $.model.complete fo",
-      "score": 0.96
+      "id": "openai-status:https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
+      "title": "Delayed Costs data in the Compliance API",
+      "summary": "Status: Identified We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore normal data freshness. Affected components Compliance API (Degraded performance)",
+      "score": 0.85
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8",
@@ -162,7 +168,7 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)",
       "score": 0.95
     },
     {
@@ -176,12 +182,6 @@
       "title": "Some ChatGPT content may be unavailable on Android",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
       "score": 0.92
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
-      "title": "Workspace admins may be unable to manage plugins",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational)",
-      "score": 0.82
     }
   ]
 }
