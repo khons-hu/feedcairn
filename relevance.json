@@ -1,8 +1,26 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-15T11:44:10.840Z",
+  "generatedAt": "2026-10-16T11:38:02.754Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "score": 0.76
+    },
+    {
+      "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "score": 0.17
+    },
+    {
+      "id": "openai:https://openai.com/index/sullivan-cromwell",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "score": 0.18
+    },
     {
       "id": "openai:https://openai.com/index/amp-beyond-coding",
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
@@ -22,22 +40,10 @@
       "score": 0.82
     },
     {
-      "id": "openai:https://openai.com/index/block-ai-powered-security",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "score": 0.34
-    },
-    {
-      "id": "openai:https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "title": "The EU’s next chapter in AI is agentic",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "score": 0.22
-    },
-    {
-      "id": "openai:https://openai.com/index/higgsfield-longer-videos-voice",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "score": 0.44
+      "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "score": 0.6
     },
     {
       "id": "deepmind:https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
@@ -70,10 +76,16 @@
       "score": 0.72
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "summary": "",
-      "score": 0.6
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "title": "0.163.0",
+      "summary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay open until you choose or cancel, and voice mute moves to F9 . ( #52273 ) Restart a managed background server from /daemon . Codex warns about work the restart could interrupt, then r",
+      "score": 0.9
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "title": "0.163.0-alpha.10.2",
+      "summary": "Release 0.163.0-alpha.10.2",
+      "score": 0.55
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
@@ -100,16 +112,10 @@
       "score": 0.55
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
-      "title": "0.163.0-alpha.10",
-      "summary": "Release 0.163.0-alpha.10",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9",
-      "title": "0.163.0-alpha.9",
-      "summary": "Release 0.163.0-alpha.9",
-      "score": 0.57
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "title": "v2.1.301",
+      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a mod's Input : a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line Added classifier_verdict and permiss",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
@@ -142,16 +148,16 @@
       "score": 0.93
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "title": "v2.1.293",
-      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed Claude sometimes treating its own last actions before a context compaction as done after it, and retracting or redoing finished work Fixed a memory leak where an HTTP MCP connectio",
-      "score": 0.95
-    },
-    {
       "id": "openai-status:https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
       "title": "Delayed Costs data in the Compliance API",
-      "summary": "Status: Identified We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore normal data freshness. Affected components Compliance API (Degraded performance)",
-      "score": 0.85
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
+      "score": 0.73
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
+      "title": "Widespread feature degradation",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
+      "score": 0.86
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8",
@@ -168,7 +174,7 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)",
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
       "score": 0.95
     },
     {
@@ -176,12 +182,6 @@
       "title": "Delayed Costs data in the Compliance API",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
       "score": 0.73
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4H7FKXDA425TDNP2CRGEYA3",
-      "title": "Some ChatGPT content may be unavailable on Android",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.92
     }
   ]
 }
