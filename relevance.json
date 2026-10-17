@@ -1,8 +1,26 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-16T11:38:02.754Z",
+  "generatedAt": "2026-10-17T10:58:11.796Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/itau-generative-ai",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "score": 0.24
+    },
+    {
+      "id": "openai:https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "score": 0.86
+    },
+    {
+      "id": "openai:https://openai.com/index/benefit-street-partners",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "score": 0.83
+    },
     {
       "id": "openai:https://openai.com/index/introducing-the-rosalind-academic-plan",
       "title": "Bringing GPT-Rosalind to academic research labs",
@@ -20,24 +38,6 @@
       "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "score": 0.18
-    },
-    {
-      "id": "openai:https://openai.com/index/amp-beyond-coding",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "score": 0.7
-    },
-    {
-      "id": "openai:https://openai.com/index/sentinelone",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "score": 0.3
-    },
-    {
-      "id": "openai:https://openai.com/index/third-moment-research",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "score": 0.82
     },
     {
       "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -76,6 +76,24 @@
       "score": 0.72
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
+      "title": "0.164.0-alpha.3",
+      "summary": "Release 0.164.0-alpha.3",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
+      "title": "0.164.0-alpha.2",
+      "summary": "Release 0.164.0-alpha.2",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "title": "0.164.0-alpha.1",
+      "summary": "Release 0.164.0-alpha.1",
+      "score": 0.6
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0",
       "title": "0.163.0",
       "summary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay open until you choose or cancel, and voice mute moves to F9 . ( #52273 ) Restart a managed background server from /daemon . Codex warns about work the restart could interrupt, then r",
@@ -94,22 +112,10 @@
       "score": 0.62
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
-      "title": "rust-v0.163.0-alpha.12",
-      "summary": "Release 0.163.0-alpha.12",
-      "score": 0.61
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
-      "title": "0.163.0-alpha.11",
-      "summary": "Release 0.163.0-alpha.11",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
-      "title": "0.163.0-alpha.10.1",
-      "summary": "Release 0.163.0-alpha.10.1",
-      "score": 0.55
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "title": "v2.1.302",
+      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) closes by December 14, 2026 Fixed a \"Prompt is too long\" error when stopping a turn while the conversation was being compacted Fixed requests failing with \"diagnostics: Extra inputs",
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
@@ -142,12 +148,6 @@
       "score": 0.94
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "title": "v2.1.294",
-      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
-      "score": 0.93
-    },
-    {
       "id": "openai-status:https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
       "title": "Delayed Costs data in the Compliance API",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
@@ -168,14 +168,14 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
       "title": "Degraded performance in Codex and ChatGPT Work",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
-      "score": 0.93
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Codex in ChatGPT Desktop (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
-      "score": 0.95
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
