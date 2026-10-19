@@ -1,13 +1,13 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-18T11:23:48.017Z",
+  "generatedAt": "2026-10-19T13:38:14.388Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/itau-generative-ai",
       "title": "How Itaú is building generative AI for its entire customer base",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "score": 0.25
+      "score": 0.23
     },
     {
       "id": "openai:https://openai.com/index/benefit-street-partners",
@@ -25,13 +25,13 @@
       "id": "openai:https://openai.com/index/introducing-the-rosalind-academic-plan",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "score": 0.77
+      "score": 0.74
     },
     {
       "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "title": "Teaching students to think and learn through questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "score": 0.16
+      "score": 0.17
     },
     {
       "id": "openai:https://openai.com/index/sullivan-cromwell",
@@ -43,37 +43,49 @@
       "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "score": 0.59
+      "score": 0.64
     },
     {
       "id": "deepmind:https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 0.55
+      "score": 0.53
     },
     {
       "id": "deepmind:https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "summary": "",
-      "score": 0.69
+      "score": 0.68
     },
     {
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-for-robotics/",
       "title": "Gemini 4 Argon for Robotics",
       "summary": "",
-      "score": 0.47
+      "score": 0.45
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-4-argon/",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "summary": "",
-      "score": 0.51
+      "score": 0.53
     },
     {
       "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
       "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
       "summary": "",
-      "score": 0.73
+      "score": 0.72
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
+      "title": "rust-v0.164.0-alpha.5",
+      "summary": "Release 0.164.0-alpha.5",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
+      "title": "0.164.0-alpha.4",
+      "summary": "Release 0.164.0-alpha.4",
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
@@ -85,13 +97,13 @@
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
       "title": "0.164.0-alpha.2",
       "summary": "Release 0.164.0-alpha.2",
-      "score": 0.6
+      "score": 0.58
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
       "title": "0.164.0-alpha.1",
       "summary": "Release 0.164.0-alpha.1",
-      "score": 0.6
+      "score": 0.59
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0",
@@ -100,16 +112,10 @@
       "score": 0.91
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
-      "title": "0.163.0-alpha.10.2",
-      "summary": "Release 0.163.0-alpha.10.2",
-      "score": 0.54
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
-      "title": "rust-v0.163.0-alpha.13",
-      "summary": "Release 0.163.0-alpha.13",
-      "score": 0.6
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "title": "v2.1.303",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "score": 0.76
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
@@ -121,7 +127,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
       "title": "v2.1.301",
       "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a mod's Input : a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line Added classifier_verdict and permiss",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
@@ -142,46 +148,40 @@
       "score": 0.96
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "title": "v2.1.295",
-      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Added a warning to claude plugin install , enable , disable and marketplace add when the settings file they write to does not load Added a line on stderr, when it is a terminal, that ",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
+      "title": "File Download errors",
+      "summary": "Status: Identified We have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation. Affected components Responses (Degraded performance) Image Generation (Degraded performance) File uploads (Degraded performance) Images (Degraded performance) Files (Degraded performance)",
+      "score": 0.91
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
       "title": "Delayed Costs data in the Compliance API",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
-      "score": 0.73
+      "score": 0.72
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
       "title": "Widespread feature degradation",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
-      "score": 0.85
+      "score": 0.86
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8",
       "title": "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational)",
-      "score": 0.93
+      "score": 0.92
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
       "title": "Degraded performance in Codex and ChatGPT Work",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
-      "score": 0.93
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Codex in ChatGPT Desktop (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)",
-      "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
-      "title": "Delayed Costs data in the Compliance API",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
-      "score": 0.69
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
+      "score": 0.94
     }
   ]
 }
