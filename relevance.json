@@ -1,8 +1,14 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-19T13:38:14.388Z",
+  "generatedAt": "2026-10-20T11:51:40.312Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/low-resource-programming-languages",
+      "title": "Advancing coding in low‑resource programming languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "score": 0.84
+    },
     {
       "id": "openai:https://openai.com/index/itau-generative-ai",
       "title": "How Itaú is building generative AI for its entire customer base",
@@ -32,12 +38,6 @@
       "title": "Teaching students to think and learn through questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "score": 0.17
-    },
-    {
-      "id": "openai:https://openai.com/index/sullivan-cromwell",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "score": 0.16
     },
     {
       "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -76,10 +76,22 @@
       "score": 0.72
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "title": "rust-v0.164.0-alpha.7",
+      "summary": "Release 0.164.0-alpha.7",
+      "score": 0.61
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
+      "title": "0.164.0-alpha.6",
+      "summary": "Release 0.164.0-alpha.6",
+      "score": 0.58
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
-      "title": "rust-v0.164.0-alpha.5",
+      "title": "0.164.0-alpha.5",
       "summary": "Release 0.164.0-alpha.5",
-      "score": 0.59
+      "score": 0.6
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
@@ -100,16 +112,10 @@
       "score": 0.58
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
-      "title": "0.164.0-alpha.1",
-      "summary": "Release 0.164.0-alpha.1",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0",
-      "title": "0.163.0",
-      "summary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay open until you choose or cancel, and voice mute moves to F9 . ( #52273 ) Restart a managed background server from /daemon . Codex warns about work the restart could interrupt, then r",
-      "score": 0.91
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "title": "v2.1.304",
+      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only Added /auto-mode-setup : a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also available on Bedrock, Vertex, Foundry, Claude apps gateway ",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
@@ -142,15 +148,9 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-      "title": "v2.1.296",
-      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workflow agent on one model while other subagents keep theirs Added CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS environment variable to set a longer maximum delay for the backoff when ret",
-      "score": 0.96
-    },
-    {
       "id": "openai-status:https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
       "title": "File Download errors",
-      "summary": "Status: Identified We have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation. Affected components Responses (Degraded performance) Image Generation (Degraded performance) File uploads (Degraded performance) Images (Degraded performance) Files (Degraded performance)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)",
       "score": 0.91
     },
     {
@@ -174,13 +174,13 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
       "title": "Degraded performance in Codex and ChatGPT Work",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Codex in ChatGPT Desktop (Operational)",
-      "score": 0.94
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
+      "score": 0.93
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)",
       "score": 0.94
     }
   ]
