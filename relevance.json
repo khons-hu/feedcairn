@@ -1,55 +1,55 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-21T12:03:24.475Z",
+  "generatedAt": "2026-10-22T12:06:30.690Z",
   "items": [
     {
-      "id": "openai:https://openai.com/index/ted-taylor-restaurant",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "score": 0.42
+      "id": "openai:https://openai.com/index/att-legal",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "score": 0.18
     },
     {
-      "id": "openai:https://openai.com/index/terminal-x",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "score": 0.55
+      "id": "openai:https://openai.com/index/broad-access-through-consistent-standards",
+      "title": "Broad access through consistent standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "score": 0.66
     },
     {
-      "id": "openai:https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "title": "OpenAI acquires Orchestra Bio",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "score": 0.11
-    },
-    {
-      "id": "openai:https://openai.com/index/low-resource-programming-languages",
-      "title": "Advancing coding in low‑resource programming languages",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "score": 0.85
-    },
-    {
-      "id": "openai:https://openai.com/index/itau-generative-ai",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "score": 0.24
-    },
-    {
-      "id": "openai:https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "id": "openai:https://openai.com/index/openai-models-google-cloud",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "score": 0.86
+    },
+    {
+      "id": "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "score": 0.5
+    },
+    {
+      "id": "openai:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "score": 0.12
+    },
+    {
+      "id": "openai:https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "score": 0.65
     },
     {
       "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "score": 0.6
+      "score": 0.64
     },
     {
       "id": "deepmind:https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 0.56
+      "score": 0.55
     },
     {
       "id": "deepmind:https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
@@ -61,55 +61,67 @@
       "id": "deepmind:https://deepmind.google/blog/gemini-4-argon-for-robotics/",
       "title": "Gemini 4 Argon for Robotics",
       "summary": "",
-      "score": 0.45
+      "score": 0.46
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-4-argon/",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "summary": "",
-      "score": 0.51
+      "score": 0.53
     },
     {
       "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
       "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
       "summary": "",
-      "score": 0.72
+      "score": 0.74
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
-      "title": "0.164.0-alpha.8",
-      "summary": "Release 0.164.0-alpha.8",
-      "score": 0.6
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
-      "title": "0.164.0-alpha.7",
-      "summary": "Release 0.164.0-alpha.7",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
+      "title": "0.164.0-alpha.12",
+      "summary": "Release 0.164.0-alpha.12",
       "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
-      "title": "0.164.0-alpha.6",
-      "summary": "Release 0.164.0-alpha.6",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
+      "title": "0.164.0-alpha.11",
+      "summary": "Release 0.164.0-alpha.11",
       "score": 0.59
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
-      "title": "0.164.0-alpha.5",
-      "summary": "Release 0.164.0-alpha.5",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
-      "title": "0.164.0-alpha.4",
-      "summary": "Release 0.164.0-alpha.4",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
+      "title": "0.163.0-alpha.11.2",
+      "summary": "Release 0.163.0-alpha.11.2",
       "score": 0.56
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
-      "title": "0.164.0-alpha.3",
-      "summary": "Release 0.164.0-alpha.3",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
+      "title": "0.164.0-alpha.10",
+      "summary": "Release 0.164.0-alpha.10",
+      "score": 0.61
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
+      "title": "0.164.0-alpha.9",
+      "summary": "Release 0.164.0-alpha.9",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
+      "title": "0.163.0-alpha.11.1",
+      "summary": "Release 0.163.0-alpha.11.1",
+      "score": 0.56
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "title": "v2.1.308",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "score": 0.76
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+      "title": "v2.1.307",
+      "summary": "What's changed Added /claude-api api-version to move Claude API code to API version 2026-10-21 Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the sandbox stopped, prompted or sent back Fixed requests failing with a model-not-found error when CLAUDE_CODE_DISABLE_1M_CONTEXT is set and the model is an alias with the [1m] suffix, such as opus[1m] Fixed the prompt-caching-scope beta header being sent behind custom ANTHROPIC_BASE_URL gateways and on Foundry, where it has no effect Fixed MCP servers showing \"needs auth",
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
@@ -121,7 +133,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
       "title": "v2.1.305",
       "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) notices a usage limit that was lifted before its reset Fixed every request failing on Vertex, Bedrock and other providers when the endpoint or a gateway rejects tool search, and behind gateways with ToolSearch disallowed or left out of --tools (a 2.1.304 regression): Claude Code now retri",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
@@ -133,55 +145,43 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
       "title": "v2.1.303",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "score": 0.74
+      "score": 0.75
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
-      "title": "v2.1.302",
-      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) closes by December 14, 2026 Fixed a \"Prompt is too long\" error when stopping a turn while the conversation was being compacted Fixed requests failing with \"diagnostics: Extra inputs",
+      "id": "openai-status:https://status.openai.com//incidents/01M5GPE9C4E19HE461P8JAMYXD",
+      "title": "Elevated ChatGPT conversation and Responses API errors",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Responses (Operational)",
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "title": "v2.1.301",
-      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a mod's Input : a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line Added classifier_verdict and permiss",
-      "score": 0.96
+      "id": "openai-status:https://status.openai.com//incidents/01M5FD63HHDRPQPM5YMQWJ5HTN",
+      "title": "Elevated FedRAMP API error rates for Astra and Sol",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
+      "score": 0.85
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M5FHKHPQJMSHCE2B2WDPZW2N",
+      "title": "Elevated error rates for gpt-5.6-luna API requests",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
       "title": "Degraded performance in ChatGPT, Codex, and APIs",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex API (Operational) ChatGPT Work (Operational) Decisions (Operational) Batch (Operational) Files (Operational) Connectors/Apps (Operational) Agents (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Login (Operational) CLI (Operational) dots (Operational) Responses (Operational) Live (Operational) Login (Operational) Images (Operational) Fine-tuning (Operational) Moderations (Operational) Image Generation (Operational) GPTs (Operational) Deep Research (Operational) Chat",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Search (Operational) Codex in ChatGPT Desktop (Operational) CLI (Operational) Embeddings (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Image Generation (Operational) Login (Operational) ChatGPT Work (Operational) Sites (Operational) dots (Operational) Files (Operational) Voice mode (Operational) Conversations (Operational) Agent (Operational) Space (Operational) Responses (Operational) Fine-tuning (Operational) Compliance API (Operational) Codex Web (Operational) Decisio",
+      "score": 0.95
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG",
+      "title": "Authentication errors for some users",
+      "summary": "Status: Resolved On October 20, from 9:35 to 10:35 a.m. PDT, some users near Illinois experienced authentication errors with the API, ChatGPT, and Codex. We rolled back a configuration change, and service was restored. Affected components Login (Operational)",
       "score": 0.96
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
       "title": "File Download errors",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Image Generation (Operational) File uploads (Operational) Images (Operational) Files (Operational)",
       "score": 0.91
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
-      "title": "Delayed Costs data in the Compliance API",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational)",
-      "score": 0.74
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
-      "title": "Widespread feature degradation",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
-      "score": 0.86
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8",
-      "title": "Limited availability on gpt-image-2.5-flare and gpt-image-2.5-sunburst",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational)",
-      "score": 0.93
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
-      "title": "Degraded performance in Codex and ChatGPT Work",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
-      "score": 0.93
     }
   ]
 }
