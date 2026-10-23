@@ -1,8 +1,32 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-22T12:06:30.690Z",
+  "generatedAt": "2026-10-23T11:50:48.843Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "score": 0.65
+    },
+    {
+      "id": "openai:https://openai.com/index/decisions-api",
+      "title": "Build more responsive apps with the Decisions API",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "score": 0.68
+    },
+    {
+      "id": "openai:https://openai.com/index/forward-deployed-engineering-means",
+      "title": "What FDE means at OpenAI",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "score": 0.41
+    },
+    {
+      "id": "openai:https://openai.com/index/uber-chatgpt-work-rollout",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "score": 0.64
+    },
     {
       "id": "openai:https://openai.com/index/att-legal",
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
@@ -16,28 +40,10 @@
       "score": 0.66
     },
     {
-      "id": "openai:https://openai.com/index/openai-models-google-cloud",
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "score": 0.86
-    },
-    {
-      "id": "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "score": 0.5
-    },
-    {
-      "id": "openai:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "score": 0.12
-    },
-    {
-      "id": "openai:https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "score": 0.65
+      "id": "deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "score": 0.09
     },
     {
       "id": "deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -70,16 +76,22 @@
       "score": 0.53
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "summary": "",
-      "score": 0.74
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "title": "0.164.0",
+      "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( #54380 , #54381 ) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( #54378 , #54383 ) Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. ( #54216 ) Authenticate enterprise MCP connections using eligible Codex account grants or dedicated sign-in, including OAuth clients requiring secrets. ( #55334 , #55859 , #56001 ) Mask credentials during ",
+      "score": 0.93
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
       "title": "0.164.0-alpha.12",
       "summary": "Release 0.164.0-alpha.12",
       "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
+      "title": "0.164.0-alpha.11.1",
+      "summary": "Release 0.164.0-alpha.11.1",
+      "score": 0.57
     },
     {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
@@ -100,16 +112,10 @@
       "score": 0.61
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
-      "title": "0.164.0-alpha.9",
-      "summary": "Release 0.164.0-alpha.9",
-      "score": 0.59
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
-      "title": "0.163.0-alpha.11.1",
-      "summary": "Release 0.163.0-alpha.11.1",
-      "score": 0.56
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "title": "v2.1.309",
+      "summary": "What's changed Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command Fixed macOS sandbox denyWrite glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with --mcp-config Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open Fixed B",
+      "score": 0.93
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
@@ -142,10 +148,22 @@
       "score": 0.94
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-      "title": "v2.1.303",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "score": 0.75
+      "id": "openai-status:https://status.openai.com//incidents/01M5KDJ4079XQTZDSRX40NMN6H",
+      "title": "Delays in customer support responses",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.77
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M5JHVJVC8WAXB4WRYFMKG6HP",
+      "title": "New Ad Accounts failing to provision admins",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads Manager (Operational) Ads API (Operational)",
+      "score": 0.17
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M5JF8DR3EGQJNTXPZ24AKX2G",
+      "title": "Degraded Performance of Dots on Enterprise",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components dots (Operational)",
+      "score": 0.8
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5GPE9C4E19HE461P8JAMYXD",
@@ -164,24 +182,6 @@
       "title": "Elevated error rates for gpt-5.6-luna API requests",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
       "score": 0.94
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
-      "title": "Degraded performance in ChatGPT, Codex, and APIs",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Search (Operational) Codex in ChatGPT Desktop (Operational) CLI (Operational) Embeddings (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Image Generation (Operational) Login (Operational) ChatGPT Work (Operational) Sites (Operational) dots (Operational) Files (Operational) Voice mode (Operational) Conversations (Operational) Agent (Operational) Space (Operational) Responses (Operational) Fine-tuning (Operational) Compliance API (Operational) Codex Web (Operational) Decisio",
-      "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M5G9QQ9V4CYDWFRYF9BWZ5GG",
-      "title": "Authentication errors for some users",
-      "summary": "Status: Resolved On October 20, from 9:35 to 10:35 a.m. PDT, some users near Illinois experienced authentication errors with the API, ChatGPT, and Codex. We rolled back a configuration change, and service was restored. Affected components Login (Operational)",
-      "score": 0.96
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
-      "title": "File Download errors",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Image Generation (Operational) File uploads (Operational) Images (Operational) Files (Operational)",
-      "score": 0.91
     }
   ]
 }
