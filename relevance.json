@@ -1,8 +1,20 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-10-23T11:50:48.843Z",
+  "generatedAt": "2026-10-24T11:17:31.475Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "score": 0.77
+    },
+    {
+      "id": "openai:https://openai.com/index/securing-our-frontier-model-training-environment",
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "score": 0.8
+    },
     {
       "id": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -26,18 +38,6 @@
       "title": "Uber brings ChatGPT Work to all employees with OpenAI",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "score": 0.64
-    },
-    {
-      "id": "openai:https://openai.com/index/att-legal",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "score": 0.18
-    },
-    {
-      "id": "openai:https://openai.com/index/broad-access-through-consistent-standards",
-      "title": "Broad access through consistent standards",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "score": 0.66
     },
     {
       "id": "deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
@@ -76,6 +76,12 @@
       "score": 0.53
     },
     {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
+      "title": "0.165.0-alpha.1",
+      "summary": "Release 0.165.0-alpha.1",
+      "score": 0.57
+    },
+    {
       "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0",
       "title": "0.164.0",
       "summary": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( #54380 , #54381 ) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( #54378 , #54383 ) Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. ( #54216 ) Authenticate enterprise MCP connections using eligible Codex account grants or dedicated sign-in, including OAuth clients requiring secrets. ( #55334 , #55859 , #56001 ) Mask credentials during ",
@@ -106,10 +112,10 @@
       "score": 0.56
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
-      "title": "0.164.0-alpha.10",
-      "summary": "Release 0.164.0-alpha.10",
-      "score": 0.61
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "title": "v2.1.310",
+      "summary": "What's changed Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conversation system messages; Claude Code now retries without them Fixed background cleanup deleting some recent files, such as pasted images, when cleanupPeriodDays is set to a very large value Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation wit",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
@@ -142,10 +148,16 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
-      "title": "v2.1.304",
-      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only Added /auto-mode-setup : a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also available on Bedrock, Vertex, Foundry, Claude apps gateway ",
-      "score": 0.94
+      "id": "openai-status:https://status.openai.com//incidents/01M5NFF94XCJ6CGTD4S78A9BEB",
+      "title": "Degraded experience with ChatGPT app connections using CIMD",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational)",
+      "score": 0.9
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M5NAR5GZC5M7D0S7AQ6CGEEN",
+      "title": "Help Center Chat Support Degraded",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.69
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5KDJ4079XQTZDSRX40NMN6H",
@@ -156,8 +168,8 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5JHVJVC8WAXB4WRYFMKG6HP",
       "title": "New Ad Accounts failing to provision admins",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads Manager (Operational) Ads API (Operational)",
-      "score": 0.17
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads API (Operational) Ads Manager (Operational)",
+      "score": 0.16
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M5JF8DR3EGQJNTXPZ24AKX2G",
@@ -170,18 +182,6 @@
       "title": "Elevated ChatGPT conversation and Responses API errors",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Responses (Operational)",
       "score": 0.95
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M5FD63HHDRPQPM5YMQWJ5HTN",
-      "title": "Elevated FedRAMP API error rates for Astra and Sol",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components FedRAMP (Operational)",
-      "score": 0.85
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M5FHKHPQJMSHCE2B2WDPZW2N",
-      "title": "Elevated error rates for gpt-5.6-luna API requests",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
-      "score": 0.94
     }
   ]
 }
